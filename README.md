@@ -80,7 +80,7 @@ Many organisations find that running team assessments **every 3 months** provide
 
 1.  Find someone to Facilitate the assessment. This should be someone from outside the team, who is familiar with running team retrospectives.  
 2.  Book a room large enough for the team, for 2 hours 
-3.  Print the assessment pages for each set of criteria, at A1 size if possible (use small margins)
+3.  Print the assessment sheets for each set of criteria, either using the [ready-made A1 PDF (see Releases)](releases/), or the individual assessment pages at A1 size if possible (use small margins):
 	* [Team Health - assessment sheet](print/print-team-health.md)
 	* [Deployment - assessment sheet](print/print-deployment.md)
 	* [Flow - assessment sheet](print/print-flow.md)
