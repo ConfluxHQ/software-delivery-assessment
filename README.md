@@ -15,6 +15,8 @@ The assessment covers six dimensions in total:
 
 These six dimensions cover all key aspects of modern software delivery in a form that enables teams to self-assess their strengths and practices.
 
+**🚀 Overview**: see slides 32-38 in [Continuous Delivery at scale](https://www.slideshare.net/matthewskelton/continuous-delivery-at-scale-matthew-skelton-nhs-digital-agile-cop-march-2019)
+
 > Copyright © 2018-2019 [Conflux Digital Ltd](https://confluxdigital.net/)
 > 
 > Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
