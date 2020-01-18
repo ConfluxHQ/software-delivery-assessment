@@ -8,25 +8,25 @@
 >
 > _Permalink: [SoftwareDeliveryAssessment.com](http://SoftwareDeliveryAssessment.com/)_ 
 
-Based on the [Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) combined with insight from Google's [Project Aristotle](https://rework.withgoogle.com/print/guides/5721312655835136/)
+[Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/)とGoogleの[Project Aristotle](https://rework.withgoogle.com/print/guides/5721312655835136/)からの洞察に基づいて作成しました。     
 
-Purpose:  *Assess the health and confidence of the team as a delivery unit*
+目的： *ソフトウェア・デリバリー単位ごとのチームの健康と自信を評価すること*
 
-Method: Use the [Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) approach to assess the team's answers to the following questions:
+方法：[Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) のアプローチを使用して、次の質問に対するチームの回答を評価します。    
 
-| **Question**                                                                                                              | **Tired (1)**                                             | **Inspired (5)**                                                                                         |
+| **質問**                                                                                                              | **うんざり (1)**                                             | **すばらしい (5)**                                                                                         |
 | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| 1\. **Easy to release** - how easy is it to release a change to the software you work on?                                 | It is difficult to release a change                       | It is easy and straightforward to release a change                                                              |
-| 2\. **Suitable process** - how suitable is the process for developing and delivering software?                                           | The process is cumbersome and unhelpful                   | The process is mostly hidden and we barely feel it                                                       |
-| 3\. **Tech quality** (code base health) - how healthy is the code base?                                                   | Our code base is piled with workarounds and danger areas  | Our code base is clean, safe to use, and well-tested                                                     |
-| 4\. **Value** - do you work on valuable things as a team?                                                                 | We are disconnected from customer or user value           | We live and breathe a value-driven team approach                                                         |
-| 5\. **Speed** - how rapidly do you work as a team?                                                                        | We seem to take a long time to get things done            | We deliver work rapidly together                                                                         |
-| 6\. **Mission** - how well do you know why you are working on things?                                                     | It is rarely clear what our mission is                    | We have a clear mission that we share with all stakeholders                                              |
-| 7\. **Fun** - how fun is it to work in your team? How much *camaraderie* and sense of teamwork?                           | Fun is rarely an aspect of our team work                  | The team is a fun place to be every day                                                                  |
-| 8\. **Learning** - how much do you learn as a team?                                                                       | We rarely learn anything new                              | We learn something every day                                                                             |
-| 9\. **Support** - how much support do you get as a team?                                                                  | We get very little support as a team                      | We are well-supported as a team                                                                          |
-| 10\. **Pawns or players** - how much control do you have over what you work on and how?                                   | We have very little say in what we work on                | We have strong influence over what we work on                                                            |
-| 11\. **Psychological Safety** - how safe do you feel to raise concerns?                                                   | If we raise concerns we are shouted down and ignored      | Our concerns are valued and used to help improve the team and organisation                               |
-| 12\. **Teams Around Us** - how well do the teams around you work with you and your team?                                  | Teams around us are unhelpful and rude                    | Teams around us are very friendly and helpful - it's a joy to work with the other teams                  |
-| 13\. **Delivery Platform** - how effective and easy to use is the delivery platform underpinning your team's delivery?    | The platform seems to obstruct us and is difficult to use | The platform is a force-multiplier for us and helps us deliver rapidly and safely. We love the platform. |
-| 14\. **Management Style** - how effective and appropriate are the approaches by management and other senior stakeholders? | The management approaches really hamper our efforts       | The management approaches help us to deliver rapidly and safely                                          |
+| 1\. **リリースが容易** - 作業中のソフトウェア変更をリリースするのは簡単ですか？                                 | リリースするのは難しい                       |リリースするのは簡単で分かりやすい                                                              |
+| 2\. **適切なプロセス** - ソフトウェアの開発とリリースのプロセスは適切ですか？                                          | プロセスは面倒で役に立たない                  | プロセスはほとんどが隠されていて、ほとんど意識することがない                                                       |
+| 3\. **技術品質** (コードベースの健全性) - コードベースはどれくらい健全ですか？                                                   | コードには、回避策と危険領域が山積みされている  | コードはクリーンで安全に使用でき、十分にテストされている|
+| 4\. **顧客またはユーザーの価値** - チームはビジネスとして価値あることに取り組んでいますか？                                                                 | 顧客またはユーザーの価値から切り離されている| 顧客またはユーザーの価値重視のチームアプローチを採用し、実践している                                                         |
+| 5\. **スピード** - チームとしてどれくらい迅速に仕事をしていますか？                                                                        | 物事を成し遂げるために長い時間がかかる| 共々に迅速な仕事を提供している|
+| 6\. **ミッション** - ミッションに取り組んでいる理由をどれだけ知っていますか？                                                     | ミッションは明確ではない                    | すべての利害関係者と共有する明確なミッションがある|
+| 7\. **楽しさ** - チームで働くのはどれほど楽しいですか？ *仲間意識*とチームワークの意識はどのくらいですか？                           | チームに楽しさはない                 | チームの毎日は楽しい|
+| 8\. **学び** - チームとしてどれくらい学びがありますか？                                                                       | 新しいことはほとんど学ばない                             | 毎日何かを学ぶ                                                                             |
+| 9\. **サポート** - チームとしてどれくらいのサポートが得られますか？                                                               | チームとしてのサポートはほとんどない                      | チームとして十分にサポートされている                                                                         |
+| 10\. **ポーンか？プレイヤーか？** - 作業内容とその手段をどの程度管理していますか？                                  | 自分たちが取り組んでいることについて、チェスのポーンのようにプロセス、作業そのものを変更することはできない。                | 自分たちが取り組んでいることについて、チェスのプレイヤーのようにプロセス、作業そのものを変更でき、強い影響を与えることができる|
+| 11\. **心理的安全性** - 懸念を提起することに対する安全性はどの程度ですか？                                                 | 懸念を提起した場合、自分たちの叫びは無視される      | 懸念は評価され、チームと組織の改善に役立てられる                               |
+| 12\. **周りのチーム** - あなたの周りのチームはあなたとあなたのチームとどれくらいうまく働いていますか？                                 | 周りのチームは役に立たずで、失礼な振る舞いをする                   | 周りのチームはとてもフレンドリーで親切で、他のチームと仕事をすることに喜びを感じる|
+| 13\. **ソフトウェア・デリバリープラットフォーム** - チームのソフトウェア・デリバリーを支えるソフトウェア・デリバリープラットフォームはどれほど効果的で使いやすいですか？  | ソフトウェア・デリバリープラットフォームは自分たちの作業を妨害しているようで、使用が難しい | このプラットフォームは自分たちの開発を加速させるもので、迅速かつ安全にソフトウェア・デリバリーするのに役立っている。 ソフトウェア・デリバリープラットフォームが好きだ。|
+| 14\. **経営スタイル** - 経営陣やその他の上級管理者によるアプローチは、どの程度効果的かつ適切ですか？ | 管理アプローチは本当に自分たちの努力を妨げている | 管理アプローチは、迅速かつ安全にソフトウエアをリリースする助けとなる|
