@@ -10,14 +10,16 @@
 
 Based on the maturity questions from Mirco Hering, author of [*DevOps for the Modern Enterprise*](https://notafactoryanymore.com/2018/03/01/mircos-self-assessment-questions-of-devops-maturity/)
 
-Purpose:  *Assess the confidence of the team in the deployment practices for its software*
+Mirco Hering氏のブログ投稿[_DevOps for the Modern Enterprise_](https://itrevolution.com/book/devops_modern_enterprise/) で説明されている書籍[_DevOps for the Modern Enterprise_](https://itrevolution.com/book/devops_modern_enterprise/) の主要な質問に基づいています。          
 
-Method: Use the [*Spotify Squad Health Check*](https://labs.spotify.com/2014/09/16/squad-health-check-model/) approach to assess the team's answers to the following questions:
+目的：*ソフトウェアのデプロイのプラクティスに対するチームの自信を評価すること*    
 
-| **Question**                                                                                                                                 | **Tired (1)**                                                        | **Inspired (5)**                                             |
+方法：[Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) のアプローチを使用して、次の質問に対するチームの回答を評価する:   
+
+| **質問**                                                                                                                                 | **しんどい (1)**                                                        | **すばらしい (5)**                                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------ |
-| 1\. **Environment Rebuild** - What would happen if we decided to: **blow away the environment and rebuild it from our stored configuration** | We don't know what would happen - the environments are flaky         | No problem - we test this in the deployment pipeline already |
-| 2\. **Fresh Config** - What would happen if we decided to: **delete the application config and redeploy it**                                 | We don't know what would happen - the configuration process is flaky | No problem - we test this in the deployment pipeline already |
-| 3\. **Redeploy App** - What would happen if we decided to: **redeploy the application even though nothing has changed**                      | We don't know what would happen - the deployments are flaky          | No problem - we test this in the deployment pipeline already |
-| 4\. **Rerun Tests** - What would happen if we decided to: **rerun the test suite and then again**                                            | We don't know what would happen - the test suite is really flaky     | No problem - we test this in the deployment pipeline already |
+| 1\. **環境の再構築** - **環境を破壊し、保存された構成から再構築**をした場合どうなりますか？ | 何が起こるかわからない-環境は不安定だ        | 問題なし - デプロイメント・パイプラインで既にテストしている |
+| 2\. **新規設定** - **アプリケーション構成を削除して再デプロイ**をした場合どうなりますか？                              | 何が起こるかわからない-設定プロセスは不安定だ | 問題なし - デプロイメント・パイプラインで既にテストしている |
+| 3\. **アプリケーションの再デプロイ** - **プログラムの変更はなく、アプリケーションを再デプロイ**をした場合どうなりますか？                      | 何が起こるかわからない-デプロイは不安定だ         | 問題なし - デプロイメント・パイプラインで既にテストしている |
+| 4\. **テストの再実行** - **テストスイートを再実行**した場合どうなりますか？                                            | 何が起こるかわからない-テストスイートは本当に不安定だ    | 問題なし - デプロイメント・パイプラインで既にテストしている |
 
