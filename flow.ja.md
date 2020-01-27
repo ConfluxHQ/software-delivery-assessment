@@ -10,7 +10,7 @@
 
 Nicole Forsgren氏、Jez Humble氏、Gene Kim氏の書籍  [_Accelerate_](https://itrevolution.com/book/accelerate/) の評価基準に基づき作成し、Don Reinertsen 氏の書籍 [_The Principles of Product Development Flow_](https://www.amazon.com/Principles-Product-Development-Flow-Generation/dp/1935401009) から、いくつかチェック項目を追加しました。
 
-目的：*E2Eのリリースメトリクスに関するチームの認識とパフォーマンスを評価します*
+目的：*E2Eのリリースメトリクスに関するチームの認識とパフォーマンスを評価すること*
 
 方法：[Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) のアプローチを使用して、次の質問に対するチームの回答を評価する:   
 

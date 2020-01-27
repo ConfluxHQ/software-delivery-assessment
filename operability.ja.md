@@ -10,7 +10,7 @@
 
 [OperabilityQuestions.com](http://OperabilityQuestions.com/)からの質問と、Matthew Skelton氏、Alex Moore氏、およびRob Thatcher氏による書籍[_Team Guide to Software Operability_](http://operabilitybook.com/) から選択した評価基準に基づいて作成しました。       
 
-目的：*ソフトウェアの操作性-実稼働の準備 に関するチームの認識と実践を評価するため*    
+目的：*ソフトウェアの操作性-実稼働の準備 に関するチームの認識と実践を評価すること*    
 
 方法：[Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) のアプローチを使用して、次の質問に対するチームの回答を評価する:
 
