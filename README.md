@@ -4,6 +4,8 @@ The Multi-team Software Delivery Assessment is a simple, easy-to-execute approac
 
 The assessment uses and builds on the well-known and proven [Spotify Squad Health Check model](https://labs.spotify.com/2014/09/16/squad-health-check-model/). 
 
+> Translations: [Japanese (ja 🇯🇵)](README.ja.md)
+
 The assessment covers six dimensions in total: 
 
 1. [Team Health](team-health.md)
