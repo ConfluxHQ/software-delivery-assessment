@@ -10,7 +10,7 @@
 
 Based on the key assessment criteria from [*Accelerate*](https://wordery.com/accelerate-nicole-forsgren-phd-9781942788331) by Nicole Forsgren, Jez Humble, and Gene Kim plus detail from [*Principles of Product Development Flow*](https://wordery.com/the-principles-of-product-development-flow-donald-g-reinertsen-9781935401001) by Don Reinertsen
 
-Purpose: *Assess the awareness and performance of the team regarding end-to-end delivery metrics *
+Purpose: *Assess the awareness and performance of the team regarding end-to-end delivery metrics*
 
 Method: Use the [*Spotify Squad Health Check*](https://labs.spotify.com/2014/09/16/squad-health-check-model/) approach to assess the team's answers to the following questions, and also
 capture the answers:
