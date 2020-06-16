@@ -19,6 +19,10 @@ These six dimensions cover all key aspects of modern software delivery in a form
 
 **🚀 Overview**: see slides 32-38 in [Continuous Delivery at scale](https://www.slideshare.net/matthewskelton/continuous-delivery-at-scale-matthew-skelton-nhs-digital-agile-cop-march-2019)
 
+**🃏 Card deck**: make the assessment fun and interactive by using [the 66-card Software Delivery Assessment printed card deck from Agile Stationery](https://agilestationery.co.uk/pages/software-delivery-assessment). Developed in collaboration with Conflux, the card deck has _Tired_ and _Inspired_ indicators for each of the assessment criteria, together with emoji cards for quick-fire voting from team members. The card deck works for remote assessments too!
+
+<img alt="Assessment cards from Agile Stationery" title="Assessment cards from Agile Stationery" src="images/Agile-Stationery-card-deck-MSDA.jpg" width="200" /> <img alt="Five emoji voting cards" title="Five emoji voting cards" src="images/SDA_Emojis_image2.png" width="200" /> 
+
 > Copyright © 2018-2020 [Conflux Digital Ltd](https://confluxdigital.net/)
 > 
 > Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
