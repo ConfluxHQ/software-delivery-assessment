@@ -77,7 +77,7 @@ The criteria for each dimension are taken from existing published books and onli
 * **Operability** - based on selected criteria from the book [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, and Rob thatcher, together with some questions from [OperabilityQuestions.com](http://OperabilityQuestions.com/)
 * **Testing and Testability** - based on selected criteria from the books [_Agile Testing_](https://wordery.com/agile-testing-lisa-crispin-9780321534460) by Lisa Crispin and Janet Gregory, [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) by Jez Humble and Dave Farley, [_Growing Object-Oriented Software_](https://wordery.com/growing-object-oriented-software-guided-by-tests-steve-freeman-9780321503626) by Steve Freeman and Nat Price, [_Working Effectively with Legacy Code_](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) by Michael Feathers, [_Team Guide to Software Testability_](http://testabilitybook.com/) by Ash Winter and Rob Meaney, and [TestabilityQuestions.com](http://TestabilityQuestions.com/).
 * **Reliability and SRE** - based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Seeking SRE_](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) edited by David N. Blank-Edelman, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
-* **On-call** = based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
+* **On-call** - based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
 
 ## How to run the assessments
 
@@ -100,8 +100,8 @@ Many organisations find that running team assessments **every 3 months** provide
 	* [Continuous Delivery - assessment sheet](print/print-continuous-delivery.md)
 	* [Operability - assessment sheet](print/print-operability.md)
 	* [Testing and Testability - assessment sheet](print/print-testability.md)
-  * [Reliability and SRE - assessment sheet](print/print-reliability.md)
-  * [On-call - assessment sheet](print/print-on-call.md)
+	* [Reliability and SRE - assessment sheet](print/print-reliability.md)
+	* [On-call - assessment sheet](print/print-on-call.md)
 4.  Either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
 	1. [Team Health](team-health.md)
 	2. [Deployment](deployment.md)
@@ -109,8 +109,8 @@ Many organisations find that running team assessments **every 3 months** provide
 	4. [Continuous Delivery](continuous-delivery.md)
 	5. [Operability](operability.md)
 	6. [Testing and Testability](testability.md)
-  7. [Reliability and SRE](reliability.md)
-  8. [On-call](on-call.md)
+	7. [Reliability and SRE](reliability.md)
+	8. [On-call](on-call.md)
 5.  For in-person sessions, bring lots of marker pens or whiteboard markers: red, blue, and green are best. For online sessions, have someone take notes in a document or shared whiteboard.
 6.  Include **someone who is familiar with facilitating retrospectives** (possibly a scrum master) in the session. They will be shadowing the facilitator during the session so the person from your team can facilitate other assessment sessions later.
 
