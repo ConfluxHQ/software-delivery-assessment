@@ -6,7 +6,7 @@ The assessment uses and builds on the well-known and proven [Spotify Squad Healt
 
 > Translations: [Japanese (ja 🇯🇵)](translations/ja/README.ja.md)
 
-The assessment covers six dimensions in total: 
+The assessment covers eight dimensions in total: 
 
 1. [Team Health](team-health.md)
 2. [Deployment](deployment.md)
@@ -14,8 +14,10 @@ The assessment covers six dimensions in total:
 4. [Continuous Delivery](continuous-delivery.md)
 5. [Operability](operability.md)
 6. [Testing and Testability](testability.md)
+7. [Reliability and SRE](reliability.md)
+8. [On-call](on-call.md)
 
-These six dimensions cover all key aspects of modern software delivery in a form that enables teams to self-assess their strengths and practices.
+These eight dimensions cover key aspects of modern software delivery in a form that enables teams to self-assess their strengths and practices.
 
 **🚀 Overview**: see slides 32-38 in [Continuous Delivery at scale](https://www.slideshare.net/matthewskelton/continuous-delivery-at-scale-matthew-skelton-nhs-digital-agile-cop-march-2019)
 
@@ -23,7 +25,7 @@ These six dimensions cover all key aspects of modern software delivery in a form
 
 <img alt="Assessment cards from Agile Stationery" title="Assessment cards from Agile Stationery" src="images/Agile-Stationery-card-deck-MSDA.jpg" width="200" /> <img alt="Five emoji voting cards" title="Five emoji voting cards" src="images/SDA_Emojis_image2.png" width="200" /> 
 
-> Copyright © 2018-2020 [Conflux Digital Ltd](https://confluxdigital.net/)
+> Copyright © 2018-2021 [Conflux Digital Ltd](https://confluxdigital.net/)
 > 
 > Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 >
@@ -36,10 +38,11 @@ The aim of the assessments is to promote and sustain a positive working environm
   - Changes to software are built, tested, and deployed to Production **rapidly and safely** using Continuous Delivery practices
   - Processes and practices are **optimised for the flow of change** towards Production
   - Software is designed and built to enable **independent, decoupled deployments** for separate families of systems
-  - Software is designed and built in a way that addresses **operability**, **testability**, and **releasability**
+  - Software is designed and built in a way that addresses **operability**, **testability**, **releasability**, and **reliability**
   - Problems in Production are always **detected by teams** before customers and users notice
   - Responsibility and **accountability** for software changes lead to empowerment and ownership
   - Working with software is **rewarding** and interesting
+  - Being on-call and supporting the software is **sustainable and valuable**
   - People feel **confident to challenge poor practices** and approaches
 
 Fundamentally, the assessments should help to **unblock and enable teams** so they can succeed. The assessments should **help teams to improve how they build, test, and deploy software systems** through identifying different kinds of improvements:
@@ -73,6 +76,8 @@ The criteria for each dimension are taken from existing published books and onli
 * **Continuous Delivery** - based on selected criteria the book [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) by Jez Humble and Dave Farley and the summary of the book at [CDchecklist.info](http://CDchecklist.info/)
 * **Operability** - based on selected criteria from the book [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, and Rob thatcher, together with some questions from [OperabilityQuestions.com](http://OperabilityQuestions.com/)
 * **Testing and Testability** - based on selected criteria from the books [_Agile Testing_](https://wordery.com/agile-testing-lisa-crispin-9780321534460) by Lisa Crispin and Janet Gregory, [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) by Jez Humble and Dave Farley, [_Growing Object-Oriented Software_](https://wordery.com/growing-object-oriented-software-guided-by-tests-steve-freeman-9780321503626) by Steve Freeman and Nat Price, [_Working Effectively with Legacy Code_](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) by Michael Feathers, [_Team Guide to Software Testability_](http://testabilitybook.com/) by Ash Winter and Rob Meaney, and [TestabilityQuestions.com](http://TestabilityQuestions.com/).
+* **Reliability and SRE** - based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Seeking SRE_](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) edited by David N. Blank-Edelman, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
+* **On-call** = based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
 
 ## How to run the assessments
 
@@ -87,22 +92,26 @@ Many organisations find that running team assessments **every 3 months** provide
 ### Preparation
 
 1.  Find someone to Facilitate the assessment. This should be someone from outside the team, who is familiar with running team retrospectives.  
-2.  Book a room large enough for the team, for 2 hours 
-3.  Print the assessment sheets for each set of criteria, either using the [ready-made A1 PDF (see Releases)](https://github.com/ConfluxDigital/software-delivery-assessment/releases), or the individual assessment pages at A1 size if possible (use small margins):
+2.  Book a room large enough for the team, for 2 or 3 hours - or split over 2 or more video call sessions
+3.  For in-person sessions, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton), or print the assessment sheets for each set of criteria, either using the [ready-made A1 PDF (see Releases)](https://github.com/ConfluxDigital/software-delivery-assessment/releases), or the individual assessment pages at A1 size if possible (use small margins):
 	* [Team Health - assessment sheet](print/print-team-health.md)
 	* [Deployment - assessment sheet](print/print-deployment.md)
 	* [Flow - assessment sheet](print/print-flow.md)
 	* [Continuous Delivery - assessment sheet](print/print-continuous-delivery.md)
 	* [Operability - assessment sheet](print/print-operability.md)
 	* [Testing and Testability - assessment sheet](print/print-testability.md)
-4.  Print the details pages as a guide (or have the pages open on-screen) to understand the context and details of each of the assessment criteria:
+  * [Reliability and SRE - assessment sheet](print/print-reliability.md)
+  * [On-call - assessment sheet](print/print-on-call.md)
+4.  Either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
 	1. [Team Health](team-health.md)
 	2. [Deployment](deployment.md)
 	3. [Flow](flow.md)
 	4. [Continuous Delivery](continuous-delivery.md)
 	5. [Operability](operability.md)
 	6. [Testing and Testability](testability.md)
-5.  Bring lots of marker pens or whiteboard markers: red, blue, and green are best.
+  7. [Reliability and SRE](reliability.md)
+  8. [On-call](on-call.md)
+5.  For in-person sessions, bring lots of marker pens or whiteboard markers: red, blue, and green are best. For online sessions, have someone take notes in a document or shared whiteboard.
 6.  Include **someone who is familiar with facilitating retrospectives** (possibly a scrum master) in the session. They will be shadowing the facilitator during the session so the person from your team can facilitate other assessment sessions later.
 
 Make sure that the Facilitator understands the purpose of the session and is familiar with the assessment pages and questions.
@@ -121,7 +130,7 @@ Make sure that the Facilitator understands the purpose of the session and is fam
 
 ### Timings
 
-Each team assessment runs for 2 hours, and the facilitator will run the team through 6 sets of questions:
+Each team assessment runs for 2-3 hours, and the facilitator will run the team through 8 sets of questions:
 
 1.  Team health check - **35 mins**
 2.  Deployment health check - **10 mins**
@@ -129,8 +138,10 @@ Each team assessment runs for 2 hours, and the facilitator will run the team th
 4.  Continuous Delivery check - **20 mins**
 5.  Operability check - **20 mins**
 6.  Test coverage check - **20 mins**
+7.  Reliability and SRE - **30 mins**
+8.  On-call - **15 mins**
 
-These timings leave space for a **5 minute break** during the assessment.
+These timings leave space for a **10 minute break** during the assessment.
 
 ### Running the Assessment session
 
@@ -148,9 +159,9 @@ Each section has several questions. Each question should be answered as follows:
 
   - Use the **Notes** column to indicate further information that you think is valuable for the coordinating team to know about.
 
-  - Make sure to complete to the **Date/Name/Facilitator** details on the bottom of each sheet.
+  - Make sure to complete to the **Date/Name/Facilitator** details 
 
-  - Take a photo of each completed sheet and send to the person coordinating the assessments
+  - For in-person sessions, take a photo of each completed sheet and send to the person coordinating the assessments
 
   -  Get team members to rate the assessment session itself in terms of: **Value**, **Execution** (sad, meh, happy faces)
 
