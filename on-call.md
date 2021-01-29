@@ -10,6 +10,13 @@
 
 Based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
 
+> NOTE: The subject of on-call is very emotive and there is significant context and nuance behind the assessment criteria here. We recommend that you read at least these two articles:
+>
+> 1. [On Call Shouldn’t Suck: A Guide For Managers](https://charity.wtf/2020/10/03/on-call-shouldnt-suck-a-guide-for-managers/)
+> 2. [On-call doesn’t have to suck](https://copyconstruct.medium.com/on-call-b0bd8c5ea4e0)
+>
+> Try to understand the social context in which the criteria for _Tired_ and _Inspired_ would make sense.
+
 Purpose: *Assess the approach to on-call support within the software system.* 
 
 Method: Use the [*Spotify Squad Health Check*](https://labs.spotify.com/2014/09/16/squad-health-check-model/) approach to assess the team's answers to the following questions, and also capture the answers:
