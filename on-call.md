@@ -15,7 +15,7 @@ Based on selected criteria from the books [_Site Reliability Engineering_](https
 > 1. [On Call Shouldn’t Suck: A Guide For Managers](https://charity.wtf/2020/10/03/on-call-shouldnt-suck-a-guide-for-managers/)
 > 2. [On-call doesn’t have to suck](https://copyconstruct.medium.com/on-call-b0bd8c5ea4e0)
 >
-> Try to understand the social context in which the criteria for _Tired_ and _Inspired_ would make sense.
+> Try to understand the social context in which the criteria for _Tired_ and _Inspired_ would make sense. At one extreme, paying people 3x or 4x normal salary to be on-call could incentivize more bugs reaching the live systems; conversely, having on-call open _only_ to those people with compatible home lives could exclude many people with home care responsibilities, depriving them of experience. 
 
 Purpose: *Assess the approach to on-call support within the software system.* 
 
