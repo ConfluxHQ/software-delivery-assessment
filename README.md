@@ -92,8 +92,8 @@ Many organisations find that running team assessments **every 3 months** provide
 ### Preparation
 
 1.  Find someone to Facilitate the assessment. This should be someone from outside the team, who is familiar with running team retrospectives.  
-2.  Book a room large enough for the team, for 2 or 3 hours - or split over 2 or more video call sessions
-3.  For in-person sessions, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton), or print the assessment sheets for each set of criteria, either using the [ready-made A1 PDF (see Releases)](https://github.com/ConfluxDigital/software-delivery-assessment/releases), or the individual assessment pages at A1 size if possible (use small margins):
+2.  Book a time slot for 2 or 3 hours: for online sessions you could split this over 2 or more video call sessions, and for in-person sessions book a room large enough for the team.
+3.  For **online sessions**, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton) and screenshot or note down the results in a spreadhseet, or use an online poll tool to capture responses from people in the session. For **in-person sessions**, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton), or print the assessment sheets for each set of criteria, either using the [ready-made A1 PDF (see Releases)](https://github.com/ConfluxDigital/software-delivery-assessment/releases), or the individual assessment pages at A1 size if possible (use small margins):
 	* [Team Health - assessment sheet](print/print-team-health.md)
 	* [Deployment - assessment sheet](print/print-deployment.md)
 	* [Flow - assessment sheet](print/print-flow.md)
@@ -102,7 +102,7 @@ Many organisations find that running team assessments **every 3 months** provide
 	* [Testing and Testability - assessment sheet](print/print-testability.md)
 	* [Reliability and SRE - assessment sheet](print/print-reliability.md)
 	* [On-call - assessment sheet](print/print-on-call.md)
-4.  Either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
+4.  For **online sessions**, show the _Tired_ and _Inspired_ criteria on the screen alongide the question. For **in-person sessions**, either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
 	1. [Team Health](team-health.md)
 	2. [Deployment](deployment.md)
 	3. [Flow](flow.md)
@@ -111,7 +111,7 @@ Many organisations find that running team assessments **every 3 months** provide
 	6. [Testing and Testability](testability.md)
 	7. [Reliability and SRE](reliability.md)
 	8. [On-call](on-call.md)
-5.  For in-person sessions, bring lots of marker pens or whiteboard markers: red, blue, and green are best. For online sessions, have someone take notes in a document or shared whiteboard.
+5.  It is valuable to capture details and nuances of the discussions around each question. For **online sessions**, have someone take notes in a document or shared whiteboard. For **in-person sessions**, bring lots of marker pens or whiteboard markers: red, blue, and green are best. 
 6.  Include **someone who is familiar with facilitating retrospectives** (possibly a scrum master) in the session. They will be shadowing the facilitator during the session so the person from your team can facilitate other assessment sessions later.
 
 Make sure that the Facilitator understands the purpose of the session and is familiar with the assessment pages and questions.
@@ -123,9 +123,9 @@ Make sure that the Facilitator understands the purpose of the session and is fam
 > During the assessment:
 > 
 > *	Keep the team on schedule by asking for some discussions to be held outside the session
-> * Write down the team scores and notes on the printed assessment sheets
-> * Take photographs of the completed assessment sheets
-> * Get feedback from the team on the VALUE and EXECUTION of the engineering assessment - smiley faces are sufficient
+> * Write down the team scores and notes on the printed assessment sheets or ensure that scores and notes are captured in a digital tool.
+> * Take photographs of the completed assessment sheets for **in-person sessions**.
+> * Get feedback from the team on the VALUE and EXECUTION of the engineering assessment - smiley faces are sufficient!
 > 
 
 ### Timings
