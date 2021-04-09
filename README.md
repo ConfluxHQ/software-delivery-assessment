@@ -1,6 +1,6 @@
 # Multi-team Software Delivery Assessment
 
-The Multi-team Software Delivery Assessment is a simple, easy-to-execute approach to assessing software delivery across many different teams within an organisation. Devised by [Matthew Skelton](https://github.com/matthewskelton) of [Conflux](https://confluxdigital.net/), it is used as a key part of the [Software Delivery Assessment at Conflux](https://confluxdigital.net/assessments), but can be used freely by anyone (subject to the CC BY-SA license below).
+The Multi-team Software Delivery Assessment is a simple, easy-to-execute approach to assessing software delivery across many different teams within an organisation. Devised by [Matthew Skelton](https://github.com/matthewskelton) of [Conflux](https://confluxdigital.net/), it is used as a key part of the [Software Delivery Assessment at Conflux](https://confluxdigital.net/), but can be used freely by anyone (subject to the CC BY-SA license below).
 
 The assessment uses and builds on the well-known and proven [Spotify Squad Health Check model](https://labs.spotify.com/2014/09/16/squad-health-check-model/). 
 
