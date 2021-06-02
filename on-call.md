@@ -8,7 +8,11 @@
 >
 > _Permalink: [SoftwareDeliveryAssessment.com](http://SoftwareDeliveryAssessment.com/)_ 
 
-Based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
+Based on selected criteria from the following books:
+
+* [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy
+* [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne
+* [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher
 
 **Definition of on-call: for this assessment, "on-call" means being available and responsible for diagnosing and fixing (through workarounds or updated code) any problems in the live/production systems that relate to software that you and your team creates and evolves.** You might be available during working hours or outside of working hours
 

@@ -8,7 +8,13 @@
 >
 > _Permalink: [SoftwareDeliveryAssessment.com](http://SoftwareDeliveryAssessment.com/)_ 
 
-Based on material from the books [_Agile Testing_](https://wordery.com/agile-testing-lisa-crispin-9780321534460) by Lisa Crispin and Janet Gregory, [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) by Jez Humble and Dave Farley, [_Growing Object-Oriented Software_](https://wordery.com/growing-object-oriented-software-guided-by-tests-steve-freeman-9780321503626) by Steve Freeman and Nat Price, [_Working Effectively with Legacy Code_](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) by Michael Feathers, [_Team Guide to Software Testability_](http://testabilitybook.com/) by Ash Winter and Rob Meaney, and [TestabilityQuestions.com](http://TestabilityQuestions.com/).
+Based on material from the following books:
+
+* [_Agile Testing_](https://wordery.com/agile-testing-lisa-crispin-9780321534460) by Lisa Crispin and Janet Gregory
+* [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) by Jez Humble and Dave Farley
+* [_Growing Object-Oriented Software_](https://wordery.com/growing-object-oriented-software-guided-by-tests-steve-freeman-9780321503626) by Steve Freeman and Nat Price
+* [_Working Effectively with Legacy Code_](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) by Michael Feathers
+* [_Team Guide to Software Testability_](http://testabilitybook.com/) by Ash Winter and Rob Meaney and the companion website [TestabilityQuestions.com](http://TestabilityQuestions.com/)
 
 Purpose: *Assess the approach to testing and testability within the software system.* 
 

@@ -8,7 +8,12 @@
 >
 > _Permalink: [SoftwareDeliveryAssessment.com](http://SoftwareDeliveryAssessment.com/)_ 
 
-Based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Seeking SRE_](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) edited by David N. Blank-Edelman, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
+Based on selected criteria from the following books:
+
+* [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy
+* [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne
+* [_Seeking SRE_](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) edited by David N. Blank-Edelman
+* [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher
 
 Purpose: *Assess the approach to reliability and SRE practices within the software system.* 
 

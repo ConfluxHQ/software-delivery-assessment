@@ -8,7 +8,11 @@
 >
 > _Permalink: [SoftwareDeliveryAssessment.com](http://SoftwareDeliveryAssessment.com/)_ 
 
-Based on the key practices in the book [Continuous Delivery](http://continuousdelivery.com/) by Jez Humble and Dave Farley, the book [Continuous Delivery with Windows and .NET](http://cdwithwindows.net/) by Matthew Skelton and Chris O'Dell, and the summary of the Continuous Delivery practices at [CDchecklist.info](http://cdchecklist.info/).
+Based on: 
+
+* the key practices in the book [Continuous Delivery](http://continuousdelivery.com/) by Jez Humble and Dave Farley
+* the book [Continuous Delivery with Windows and .NET](http://cdwithwindows.net/) by Matthew Skelton and Chris O'Dell
+* the summary of the Continuous Delivery practices at [CDchecklist.info](http://cdchecklist.info/).
 
 Purpose: *Assess the awareness and performance of the team regarding key Continuous Delivery practices*
 
