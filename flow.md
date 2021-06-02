@@ -8,7 +8,11 @@
 >
 > _Permalink: [SoftwareDeliveryAssessment.com](http://SoftwareDeliveryAssessment.com/)_ 
 
-Based on the key assessment criteria from [*Accelerate*](https://wordery.com/accelerate-nicole-forsgren-phd-9781942788331) by Nicole Forsgren, Jez Humble, and Gene Kim plus detail from [*Principles of Product Development Flow*](https://wordery.com/the-principles-of-product-development-flow-donald-g-reinertsen-9781935401001) by Don Reinertsen
+Based on the key assessment criteria from:
+
+* [*Accelerate*](https://wordery.com/accelerate-nicole-forsgren-phd-9781942788331) by Nicole Forsgren, Jez Humble, and Gene Kim
+* [*Principles of Product Development Flow*](https://wordery.com/the-principles-of-product-development-flow-donald-g-reinertsen-9781935401001) by Don Reinertsen
+* [*Team Guide to Metrics for Business Decisions*](http://bizmetricsbook.com/) by Mattia Battiston and Chris Young
 
 Purpose: *Assess the awareness and performance of the team regarding end-to-end delivery metrics*
 
