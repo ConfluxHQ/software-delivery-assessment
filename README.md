@@ -93,7 +93,7 @@ Many organisations find that running team assessments **every 3 months** provide
 
 1.  Find someone to Facilitate the assessment. This should be someone from outside the team, who is familiar with running team retrospectives.  
 2.  Book a time slot for 2 or 3 hours: for online sessions you could split this over 2 or more video call sessions, and for in-person sessions book a room large enough for the team.
-3.  For **online sessions**, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton) and screenshot or note down the results in a spreadhseet, or use an online poll tool to capture responses from people in the session. For **in-person sessions**, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton), or print the assessment sheets for each set of criteria, either using the [ready-made A1 PDF (see Releases)](https://github.com/ConfluxDigital/software-delivery-assessment/releases), or the individual assessment pages at A1 size if possible (use small margins):
+3.  For **online sessions**, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton) and screenshot or note down the results in a spreadsheet, or use an online poll tool to capture responses from people in the session. For **in-person sessions**, either use the [card deck from Agile Stationery](https://agilestationery.co.uk/collections/retrospectives/products/software-delivery-assessment-card-deck-by-matthew-skelton), or print the assessment sheets for each set of criteria, either using the [ready-made A1 PDF (see Releases)](https://github.com/ConfluxDigital/software-delivery-assessment/releases), or the individual assessment pages at A1 size if possible (use small margins):
 	* [Team Health - assessment sheet](print/print-team-health.md)
 	* [Deployment - assessment sheet](print/print-deployment.md)
 	* [Flow - assessment sheet](print/print-flow.md)
@@ -171,7 +171,7 @@ Each team assessment session has present one person who is shadowing the facilit
 
 ## Coordinating and interpreting the results
 
-After teams have each run an assessment session and sent their results, the coordintating group should collate the results from different teams to identify any areas that need improving across the organisation. Ask questions such as:
+After teams have each run an assessment session and sent their results, the coordinating group should collate the results from different teams to identify any areas that need improving across the organisation. Ask questions such as:
 
 * Why does team ABC rate themselves as 1 for test coverage? What is hindering them?
 * What can we do as an organisation to help more teams with deployments?
