@@ -102,7 +102,7 @@ Many organisations find that running team assessments **every 3 months** provide
 	* [Testing and Testability - assessment sheet](print/print-testability.md)
 	* [Reliability and SRE - assessment sheet](print/print-reliability.md)
 	* [On-call - assessment sheet](print/print-on-call.md)
-4.  For **online sessions**, show the _Tired_ and _Inspired_ criteria on the screen alongide the question. For **in-person sessions**, either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
+4.  For **online sessions**, show the _Tired_ and _Inspired_ criteria on the screen alongside the question. For **in-person sessions**, either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
 	1. [Team Health](team-health.md)
 	2. [Deployment](deployment.md)
 	3. [Flow](flow.md)
