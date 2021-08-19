@@ -1,6 +1,6 @@
 # Continuous Delivery check
 
-> **Part of the Multi-team Software Delivery Assessment** ([README](README.md))
+> **Partie de l’évaluation de la livraison de logiciels à plusieurs équipes** ([README](README.md))
 > 
 > Copyright © 2018-2021 [Conflux Digital Ltd](https://confluxdigital.net/)
 > 
