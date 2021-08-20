@@ -1,32 +1,32 @@
 # Team Health check
 
-> **Part of the Multi-team Software Delivery Assessment** ([README](README.md))
+> **Partie de l’évaluation de la livraison de logiciels à plusieurs équipes** ([README](README.md))
 > 
-> Copyright © 2018-2019 [Conflux Digital Ltd](https://confluxdigital.net/)
+> Droit d’auteur © 2018-2021 [Conflux Digital Ltd](https://confluxdigital.net/)
 > 
-> Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+> Sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 >
 > _Permalink: [SoftwareDeliveryAssessment.com](http://SoftwareDeliveryAssessment.com/)_ 
 
-[Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/)とGoogleの[Project Aristotle](https://rework.withgoogle.com/print/guides/5721312655835136/)からの洞察に基づいて作成しました。     
+Basé sur le [Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) combiné avec les idées du [Project Aristotle](https://rework.withgoogle.com/print/guides/5721312655835136/) de Google.
 
-目的： *ソフトウェア・デリバリー単位ごとのチームの健康と自信を評価すること*
+But :  *Évaluer la santé et la confiance de l’équipe en tant qu’unité de prestation.*
 
-方法：[Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) のアプローチを使用して、次の質問に対するチームの回答を評価する:
+Méthode : Utilisez l’approche [Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) pour évaluer les réponses de l’équipe aux questions suivantes :
 
-| **質問**                                                                                                              | **しんどい (1)**                                             | **すばらしい (5)**                                                                                         |
+| **Question**                                                                                                              | **Inspiré (1)**                                             | **Fatigué (5)**                                                                                         |
 | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| 1\. **リリースが容易** - 作業中のソフトウェア変更をリリースするのは簡単ですか？                                 | リリースするのは難しい                       |リリースするのは簡単で分かりやすい                                                              |
-| 2\. **適切なプロセス** - ソフトウェアの開発とリリースのプロセスは適切ですか？                                          | プロセスは面倒で役に立たない                  | プロセスはほとんどが隠されていて、ほとんど意識することがない                                                       |
-| 3\. **技術品質** (コードベースの健全性) - コードベースはどれくらい健全ですか？                                                   | コードには、回避策と危険領域が山積みされている  | コードはクリーンで安全に使用でき、十分にテストされている|
-| 4\. **顧客またはユーザーの価値** - チームはビジネスとして価値あることに取り組んでいますか？                                                                 | 顧客またはユーザーの価値から切り離されている| 顧客またはユーザーの価値重視のチームアプローチを採用し、実践している                                                         |
-| 5\. **スピード** - チームとしてどれくらい迅速に仕事をしていますか？                                                                        | 物事を成し遂げるために長い時間がかかる| 共々に迅速な仕事を提供している|
-| 6\. **ミッション** - ミッションに取り組んでいる理由をどれだけ知っていますか？                                                     | ミッションは明確ではない                    | すべての利害関係者と共有する明確なミッションがある|
-| 7\. **楽しさ** - チームで働くのはどれほど楽しいですか？ *仲間意識*とチームワークの意識はどのくらいですか？                           | チームに楽しさはない                 | チームの毎日は楽しい|
-| 8\. **学び** - チームとしてどれくらい学びがありますか？                                                                       | 新しいことはほとんど学ばない                             | 毎日何かを学ぶ                                                                             |
-| 9\. **サポート** - チームとしてどれくらいのサポートが得られますか？                                                               | チームとしてのサポートはほとんどない                      | チームとして十分にサポートされている                                                                         |
-| 10\. **ポーンか？プレイヤーか？** - 作業内容とその手段をどの程度管理していますか？                                  | 自分たちが取り組んでいることについて、チェスのポーンのようにプロセス、作業そのものを変更することはできない。                | 自分たちが取り組んでいることについて、チェスのプレイヤーのようにプロセス、作業そのものを変更でき、強い影響を与えることができる|
-| 11\. **心理的安全性** - 懸念を提起することに対する安全性はどの程度ですか？                                                 | 懸念を提起した場合、自分たちの叫びは無視される      | 懸念は評価され、チームと組織の改善に役立てられる                               |
-| 12\. **周りのチーム** - あなたの周りのチームはあなたとあなたのチームとどれくらいうまく働いていますか？                                 | 周りのチームは役に立たずで、失礼な振る舞いをする                   | 周りのチームはとてもフレンドリーで親切で、他のチームと仕事をすることに喜びを感じる|
-| 13\. **ソフトウェア・デリバリープラットフォーム** - チームのソフトウェア・デリバリーを支えるソフトウェア・デリバリープラットフォームはどれほど効果的で使いやすいですか？  | ソフトウェア・デリバリープラットフォームは自分たちの作業を妨害しているようで、使用が難しい | このプラットフォームは自分たちの開発を加速させるもので、迅速かつ安全にソフトウェア・デリバリーするのに役立っている。 ソフトウェア・デリバリープラットフォームが好きだ。|
-| 14\. **経営スタイル** - 経営陣やその他の上級管理者によるアプローチは、どの程度効果的かつ適切ですか？ | 管理アプローチは本当に自分たちの努力を妨げている | 管理アプローチは、迅速かつ安全にソフトウエアをリリースする助けとなる|
+| 1\. **Diffusion facile** - À quel point est-il facile de diffuser un changement au logiciel sur lequel vous travaillez?                                 | Il est difficile de diffuser un changement.                       | Il est facile et simple de diffuser un changement.                                                              |
+| 2\. **Processus approprié** - Quel est le processus approprié pour le développement et la livraison de logiciels?                                           | Le processus est lourd et peu utile.                   | Le processus est essentiellement caché et nous le sentons à peine.                                                       |
+| 3\. **Qualité technique** (santé de base de codes) – Quel est l’état de santé de la base de codes?                                                   | Notre base de codes est remplie de solutions de rechange et des zones dangereuses.  | Notre base de codes est propre, sécuritaire et bien testée.                                                     |
+| 4\. **Valeur** - Travaillez-vous sur des choses précieuses en équipe?                                                                 | Nous sommes déconnectés de la valeur client ou utilisateur.           | Nous vivons et respirons une approche d’équipe axée sur la valeur.                                                         |
+| 5\. **Vitesse** - À quelle vitesse travaillez-vous en équipe?                                                                        | Il semble que nous prenions du temps pour faire avancer les choses.            | Nous travaillons rapidement ensemble.                                                                         |
+| 6\. **Mission** - Savez-vous pourquoi vous travaillez sur des choses?                                                     | Il est rare de savoir clairement quelle est notre mission.                    | Nous avons une mission claire que nous partageons avec tous les intervenants.                                              |
+| 7\. **Plaisir** - Est-ce plaisant de travailler dans votre équipe? Quel niveau de camaraderie et quel sens du travail d’équipe?                           | Le plaisir est rarement un aspect de notre travail d’équipe.                   | L’équipe est un endroit plaisant tous les jours.                                                                  |
+| 8\. **Apprentissage** - Combien apprenez-vous en équipe?                                                                       | Nous apprenons rarement quelque chose de nouveau.                              | Nous apprenons quelque chose chaque jour.                                                                             |
+| 9\. **Soutien** - Quel soutien obtenez-vous en tant qu’équipe?                                                                  | Nous obtenons très peu de soutien en tant qu’équipe.                      | Nous sommes bien appuyés en tant qu’équipe.                                                                          |
+| 10\. **Pions ou joueurs** - Quel contrôle avez-vous sur ce sur quoi vous travaillez et comment?                                   | Nous n’avons pas vraiment de mot à dire sur ce sur quoi nous travaillons.                | Nous avons une forte influence sur ce sur quoi nous travaillons.                                                            |
+| 11\. **Sécurité psychologique** - À quel point vous sentez-vous en sécurité pour soulever des préoccupations?                                                   | Si nous soulevons des préoccupations, on nous crie dessus et on nous ignore.      | Nos préoccupations sont appréciées et utilisées pour aider à améliorer l’équipe et l’organisation.                               |
+| 12\. **Équipes autour de nous** - Dans quelle mesure les équipes autour de vous travaillent-elles avec vous et votre équipe?                                  | Les équipes autour de nous sont peu serviables et désagréables.                    | Les équipes autour de nous sont très amicales et serviables – c’est un plaisir de travailler avec les autres équipes.                  |
+| 13\. **Plateforme de livraison** - À quel point la plateforme de livraison est-elle efficace et conviviale pour appuyer la livraison de votre équipe?    | La plateforme semble nous obstruer et est difficile à utiliser. | La plateforme est un multiplicateur de force pour nous et nous aide à livrer rapidement et en toute sécurité. Nous aimons la plateforme. |
+| 14\. **Style de gestion** - Quelles sont l’efficacité et la pertinence des approches de la direction et des autres intervenants supérieurs? | Les approches de gestion entravent vraiment nos efforts.       | Les approches de gestion nous aident à livrer rapidement et en toute sécurité.                                          |
