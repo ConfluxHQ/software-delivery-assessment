@@ -10,8 +10,8 @@
 
 Basé sur : 
 
-* les pratiques clés dans le livre [Continuous Delivery](http://continuousdelivery.com/) de Jez Humble et Dave Farley;
-* le livre [Continuous Delivery with Windows and .NET](http://cdwithwindows.net/) de Matthew Skelton et Chris O’Dell;
+* les pratiques clés dans le livre [Continuous Delivery](http://continuousdelivery.com/) de Jez Humble et Dave Farley.
+* le livre [Continuous Delivery with Windows and .NET](http://cdwithwindows.net/) de Matthew Skelton et Chris O’Dell.
 * le résumé des pratiques de livraison continue sur [CDchecklist.info](http://cdchecklist.info/).
 
 But : *Évaluer la sensibilisation et le rendement de l’équipe à l’égard des pratiques clés de livraison continue.*
