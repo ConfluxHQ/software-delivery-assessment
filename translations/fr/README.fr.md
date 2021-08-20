@@ -1,166 +1,180 @@
 # Multi-team Software Delivery Assessment
 
-Multi-team Software Delivery Assessmentは、組織内のさまざまなチームのソフトウェア・デリバリーを評価するためのシンプルで実行しやすい手法です。    　　　　
+L’évaluation de la livraison de logiciels à plusieurs équipes est une approche simple et facile à exécuter pour évaluer la livraison de logiciels dans de nombreuses équipes différentes dans une organisation. Conçue par [Matthew Skelton](https://github.com/matthewskelton) de [Conflux](https://confluxdigital.net/), elle est utilisée comme élément clé de Software Delivery Assessment à Conflux, mais peut être utilisé librement par n’importe qui (sous réserve de la licence CC BY-SA ci-dessous).
 
-この評価手法は、よく知られ実績のある[Spotify Squad Health Check model](https://labs.spotify.com/2014/09/16/squad-health-check-model/)を基にしており、以下合計6つの観点をカバーしています。     
+L’évaluation utilise et met à profit le modèle bien connu et éprouvé de [Spotify Squad Health Check model](https://labs.spotify.com/2014/09/16/squad-health-check-model/). 
 
-1. [Team Health](team-health.ja.md)
-2. [Deployment](deployment.ja.md)
-3. [Flow](flow.ja.md)
-4. [Continuous Delivery](continuous-delivery.ja.md)
-5. [Operability](operability.ja.md)
-6. [Testing and Testability](testability.ja.md)
+> Traductions: [Japanese (ja 🇯🇵)](translations/ja/README.ja.md), [English (en)](translations/en/README.en.md)
 
-これら6つの観点は、最新のソフトウェア・デリバリーのすべての重要事項を網羅していて、チームがそれぞれの長所とプラクティスを自己評価できます。            
+L’évaluation porte sur huit dimensions au total :
 
-**🚀 概要**: [Continuous Delivery at scale](https://www.slideshare.net/matthewskelton/continuous-delivery-at-scale-matthew-skelton-nhs-digital-agile-cop-march-2019)のスライド32〜38を参照してください。    
+1. [Santé de l’équipe](team-health.md)
+2. [Déploiement](deployment.md)
+3. [Flux](flow.md)
+4. [Livraison continue](continuous-delivery.md)
+5. [Exploitabilité](operability.md)
+6. [Essais et testabilité](testability.md)
+7. [Fiabilité et IFS](reliability.md)
+8. [Sur appel](on-call.md)
 
-> Copyright © 2018-2019 [Conflux Digital Ltd](https://confluxdigital.net/)
+Ces huit dimensions couvrent les aspects clés de la livraison de logiciels modernes sous une forme qui permet aux équipes d’évaluer eux-mêmes leurs forces et leurs pratiques.
+
+**🚀 Aperçu**: voir Diapositives 32-38 dans [Continuous Delivery at scale](https://www.slideshare.net/matthewskelton/continuous-delivery-at-scale-matthew-skelton-nhs-digital-agile-cop-march-2019)
+
+**🃏 Jeu de cartes**: Rendre l’évaluation amusante et interactive à l’aide de [the 66-card Software Delivery Assessment printed card deck from Agile Stationery](https://agilestationery.co.uk/pages/software-delivery-assessment). Élaboré en collaboration avec Conflux, le jeu de cartes comporte des indicateurs Fatigué et Inspiré pour chacun des critères d’évaluation, ainsi que des cartes émoticônes pour le vote rapide des membres de l’équipe. Le jeu de cartes fonctionne aussi pour les évaluations à distance!
+
+<img alt="Assessment cards from Agile Stationery" title="Assessment cards from Agile Stationery" src="images/Agile-Stationery-card-deck-MSDA.jpg" width="200" /> <img alt="Five emoji voting cards" title="Five emoji voting cards" src="images/SDA_Emojis_image2.png" width="200" /> 
+
+> Droit d’auteur © 2018-2021 © 2018-2021 [Conflux Digital Ltd](https://confluxdigital.net/)
 > 
-> Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+> Sous-licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 >
 > _Permalink: [SoftwareDeliveryAssessment.com](http://SoftwareDeliveryAssessment.com/)_
 
-## 評価の目的      
+## But des évaluations
 
-ソフトウェアシステムを構築および実行するためのポジティブな作業環境の促進、および維持することが評価の目的です。      
-ポジティブな作業環境では、以下の状況が発生します。      
+L’objectif des évaluations est de promouvoir et de maintenir un environnement de travail positif pour le développement et la gestion de systèmes logiciels où :
 
-  - ソフトウェアの変更は、継続的デリバリーの手法を使用して、**迅速かつ安全に**ビルドされ、テストされ、プロダクション環境にリリースされる。    
-  - プロセスとプラクティスは、**リリースに向けたソフトウェアの変更フロー**に最適化される。         
-  - ソフトウェアは、1つ１つ分断されたシステムに対して**独立、分離したリリース**ができるように設計および構築される。     
-  - ソフトウェアは、**運用性**、**テスト容易性**、および**リリース容易性**を考慮して設計および構築される。    
-  - ソフトウェアプロダクト、ソフトウェア生産過程での問題が、顧客やユーザーが気付く前に常に**チームによって検出される**。     
-  - 開発者がソフトウェアの変更に対する責任と**説明責任**を持ち、開発者のエンパワーメントとオーナーシップに繋がる。     
-  - ソフトウェア開発が、**やりがいのあり**、楽しいものになる。    
-  - **悪い慣習と悪いアプローチに挑み、変えること** に自信が持てるようになる。        
- 
-基本的にMulti-team Software Delivery Assessmentは**チームを解放して活性化**し、チームが成功するのに役立ちます。この評価手法は、様々な改善点を特定することにより、**チームがソフトウェアシステムの構築、テスト、およびリリースを改善する**のを手助けします。       
-改善点には、以下があります。      
+  - les modifications apportées aux logiciels sont élaborées, testées et déployées en production **rapidement et en toute sécurité** grâce aux pratiques de livraison continue;
+  - les processus et les pratiques sont **optimisés pour le flux de changement** vers la production;
+  - le logiciel est conçu et développé pour permettre des **déploiements indépendants et découplés** pour des familles séparées de systèmes;
+  - le logiciel est conçu et développé de manière à répondre aux exigences **d’exploitabilité**, **de testabilité**, **de capacité de libération** et **de fiabilité**;
+  - les problèmes de production sont toujours **détectés par les équipes** avant que les clients et les utilisateurs ne s’en rendent compte;
+  - la responsabilité et **l’obligation de rendre compte** des changements logiciels mènent à l’autonomisation et à la propriété;
+  - travailler avec un logiciel est **gratifiant** et intéressant;
+  - être sur appel et appuyer le logiciel sont **durables et précieux**;
+  - les gens se sentent **confiants de contester les mauvaises pratiques** et approches.
 
-1.チーム中心の改善点       
-2.製品中心およびサービス中心の改善点     
-3.組織全体の改善点            
+Fondamentalement, les évaluations devraient aider à **débloquer et à permettre aux équipes** de réussir. Les évaluations doivent **aider les équipes à améliorer la façon dont elles développent, testent et déploient des systèmes logiciels** en identifiant différents types d’améliorations :
 
-この評価手法は、チームにペナルティを科すために使用するべきではなく、プラクティスと品質の改善に向けて、共有される意欲を提供するために使用するべきです。     
+1.  Améliorations axées sur l’équipe.
+2.  Améliorations axées sur le produit et sur le service.
+3.  Améliorations à l’échelle de l’organisation.
 
-## 評価対象のチーム       
+Les évaluations NE doivent PAS être utilisées pour pénaliser les équipes, mais pour fournir une volonté commune d’améliorer les pratiques et la qualité.
 
-アプリケーションソフトウェアまたはインフラストラクチャのコード、スクリプトの作成、またはそれらの設定を行うすべてのチームが評価対象となり、評価することでメリットがあります。            
-評価対象のチームは以下になります。                    
+## Équipes incluses dans les évaluations
 
-  - **ユーザー向け-のWebサイトとサービス**、**顧客向けのWebサイトとサービス**を構築するチーム       
-  - **内部サービス**を構築するチーム      
-  - 他のシステムをサポートする**インフラストラクチャ**を構築するチーム（プラットフォームチームを含む）        
-  - **ビルド とデプロイメント**ツール、スクリプトを構築するチーム     
-  - ソフトウェアおよびインフラストラクチャの一部としてCOTS製品を構成およびテストするチーム     
-  - その他、**ソフトウェアおよびインフラストラクチャの構築、構成、およびテスト** に主眼をおくチーム    
-  
-"チーム"とは、人材連携の度合いの大きい6-10人のグループを意味します。通常、**Squad**、**Scrumチーム**、**Productチーム**、または **Stream-alignedチーム**と呼ばれます。
+Chaque équipe qui écrit du code, des scripts ou une configuration pour les logiciels d’application ou l’infrastructure bénéficiera de l’inclusion dans les évaluations :
 
-## 評価基準    
+  - Équipes élaborant des **sites Web et des services destinés aux utilisateurs et aux clients**.
+  - Équipes élaborant des **services internes.**
+  - Équipes élaborant l’**infrastructure** pour appuyer d’autres systèmes (y compris les équipes de plateforme).
+  - Équipes élaborant des outils et des scripts de **développement et de déploiement**.
+  - Équipes **configurant et testant les produits LCPE** dans le cadre du domaine logiciel et d’infrastructure.
+  - Toute autre équipe qui mise principalement sur **l’élaboration, la configuration et la mise à l’essai des logiciels et de l’infrastructure**.
 
-各観点の評価基準は、既存の出版された書籍、およびオンラインソースから取得しています。     
+Par « équipe », on entend un groupe de 6 à 10 personnes qui travaille en étroite collaboration, généralement appelé Équipe, Équipe du Scrum, Équipe de produit ou Équipe harmonisée par flux. 
 
-* **Team Health** - [_Spotify Squad Health Check_](https://labs.spotify.com/2014/09/16/squad-health-check-model/) の評価基準に基づき作成し、いくつかのチェック項目を追加しました。。     
-* **Deployment** - Mirco Hering氏のブログ投稿[_DevOps for the Modern Enterprise_](https://itrevolution.com/book/devops_modern_enterprise/) で説明されている書籍[_DevOps for the Modern Enterprise_](https://itrevolution.com/book/devops_modern_enterprise/) の主要な質問に基づいて作成しました。     
-* **Flow** - Nicole Forsgren氏、Jez Humble氏、Gene Kim氏の書籍  [_Accelerate_](https://itrevolution.com/book/accelerate/) の評価基準に基づき作成し、Don Reinertsen 氏の書籍 [_The Principles of Product Development Flow_](https://www.amazon.com/Principles-Product-Development-Flow-Generation/dp/1935401009) から、いくつかチェック項目を追加しました。  
-* **Contous Delivery** - Jez Humble氏とDave Farley氏による書籍 [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) と [CDchecklist.info](http://CDchecklist.info/) にある書籍の要約に基づいて作成しました。 
-* **Operability** - [OperabilityQuestions.com](http://OperabilityQuestions.com/)からの質問と、Matthew Skelton氏、Alex Moore氏、およびRob Thatcher氏による書籍[_Team Guide to Software Operability_](http://operabilitybook.com/) から選択した評価基準に基づいて作成しました。       
-* **Testing and Testability** - Lisa Crispin氏 と Janet Gregory氏による書籍 [_Agile Testing_](https://wordery.com/agile-testing-lisa-crispin-9780321534460) , Jez Humble氏とDave Farley氏による書籍 [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) , Steve Freeman 氏 と Nat Price 氏 による書籍[_Growing Object-Oriented Software_](https://wordery.com/growing-object-oriented-software-guided-by-tests-steve-freeman-9780321503626) , Michael Feathers氏による書籍 [_Working Effectively with Legacy Code_](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052), Ash Winter氏と Rob Meaney氏による書籍 [_Team Guide to Software Testability_](http://testabilitybook.com/) と Webサイト [TestabilityQuestions.com](http://TestabilityQuestions.com/) に基づいて評価基準を作成しました。    
+## Critères d’évaluation
 
-## 評価の実行方法     
+Les critères de chaque dimension sont tirés des ouvrages et des sources en ligne existants :
 
-評価セッション自体は、チームのふりかえりのように実施する必要があります。通常のふりかえりとの主な違いは、評価セッションではファシリテーターが議論をよりしっかりと導くことです。議論する多くの質問があり、チームが利用可能な時間内にすべての評価基準を議論することが重要です。    
+* **Santé de l’équipe** - Fondée sur les critères de [_Spotify Squad Health Check_](https://labs.spotify.com/2014/09/16/squad-health-check-model/) avec quelques ajouts.
+* **Déploiement** - Fondé sur les questions clés du livre [_DevOps for the Modern Enterprise_](https://itrevolution.com/book/devops_modern_enterprise/) de Mirco Hering comme abordé dans l’article [Mirco’s self assessment questions of DevOps Maturity](https://notafactoryanymore.com/2018/03/01/mircos-self-assessment-questions-of-devops-maturity/) du blogue de Mirco. 
+* **Flux** - Fondé sur les critères du livre [_Accelerate_](https://itrevolution.com/book/accelerate/) de Nicole Forsgren, Jez Humble, et Gene Kim, en plus de certains détails de [_The Principles of Product Development Flow_](https://www.amazon.com/Principles-Product-Development-Flow-Generation/dp/1935401009) de Don Reinertsen.
+* **Livraison continue** - onction sur des critères sélectionnés du livre [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) de Jez Humble et Dave Farley et le résumé du livre à [CDchecklist.info](http://CDchecklist.info/)
+* **Exploitabilité** - Fondée sur des critères sélectionnés dans le livre [_Team Guide to Software Operability_](http://operabilitybook.com/) de Matthew Skelton, Alex Moore, et Rob Thatcher, ainsi que quelques questions de [OperabilityQuestions.com](http://OperabilityQuestions.com/)
+* **Essais et testabilité** - Selon les critères sélectionnés dans les livres [_Agile Testing_](https://wordery.com/agile-testing-lisa-crispin-9780321534460) de Lisa Crispin et Janet Gregory, [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) de Jez Humble and Dave Farley, [_Growing Object-Oriented Software_](https://wordery.com/growing-object-oriented-software-guided-by-tests-steve-freeman-9780321503626) de Steve Freeman et Nat Price, [_Working Effectively with Legacy Code_](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) de Michael Feathers, [_Team Guide to Software Testability_](http://testabilitybook.com/) de Ash Winter et Rob Meaney, et [TestabilityQuestions.com](http://TestabilityQuestions.com/).
+* **Fiabilité et IFS** - Selon les critères sélectionnés dans les livres [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) de Betsy Beyer, Chris Jones, Jennifer Petoff, et Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) édité par Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, et Stephen Thorne, [_Seeking SRE_](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) édité par David N. Blank-Edelman, [_Team Guide to Software Operability_](http://operabilitybook.com/) de Matthew Skelton, Alex Moore, et Rob Thatcher.
+* **Sur appel** - Selon les critères sélectionnés des livres [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) de Betsy Beyer, Chris Jones, Jennifer Petoff, et Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) édité par Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, et Stephen Thorne, [_Team Guide to Software Operability_](http://operabilitybook.com/) de Matthew Skelton, Alex Moore, et Rob Thatcher.
 
-評価セッションの終わりには、チームは議論に基づいて、プロセスとプラクティスを改善するためにどのようなアクションを実行するかの決定を促され、エンパワーメントされたと感じる必要があります。    
+## Comment exécuter les évaluations
 
-### 評価の実行頻度    
+La séance d’évaluation elle-même devrait ressembler à une séance rétrospective d’équipe. La principale différence par rapport à une séance rétrospective normale est que, lors de la séance d’évaluation de l’équipe, l’animateur oriente plus fermement la discussion. Il y a beaucoup de questions à aborder, et il est important que l’équipe discute de tous les critères dans le temps disponible.
 
-多くの組織では、評価セッションを**3か月ごとに** 実行すると、良い結果が得られることがわかっています。      
+À la fin de la séance d’évaluation, l’équipe devrait se sentir encouragée et habilitée à décider des mesures qu’elle souhaite prendre pour améliorer ses processus et ses pratiques en se fondant sur les discussions.
 
-### 評価のための準備      
+### Fréquence
 
-1.  評価セッションのファシリテーターを見つけます。これは、チームのふりかえりに精通しているチーム外の人でなければなりません。    
-2.  時間を2時間、チームに対して大きめのミーティングルームを確保します。         
-3.  [既製のA1 PDF（リリースを参照）](https://github.com/ConfluxDigital/software-delivery-assessment/releases)を使用するか、可能であればA1サイズで、以下の個々の評価ページ（小さなマージンを使用）を使用して、各観点の評価シートを印刷します。      
-	* [Team Health - 評価シート](print/print-team-health.ja.md)
-	* [Deployment - 評価シート](print/print-deployment.ja.md)
-	* [Flow - 評価シート](print/print-flow.ja.md)
-	* [Continuous Delivery - 評価シート](print/print-continuous-delivery.ja.md)
-	* [Operability - 評価シート](print/print-operability.ja.md)
-	* [Testing and Testability - 評価シート](print/print-testability.ja.md)   
-4.  詳細ページをガイドとして印刷（またはページを画面上で開く）して、各評価基準のコンテキストと詳細を理解します。     
-	1. [Team Health](team-health.ja.md)
-	2. [Deployment](deployment.ja.md)
-	3. [Flow](flow.ja.md)
-	4. [Continuous Delivery](continuous-delivery.ja.md)
-	5. [Operability](operability.ja.md)
-	6. [Testing and Testability](testability.ja.md)
-5.  マーカーまたはホワイトボードマーカーをたくさん用意してください。赤、青、緑が最適です。     
-6.  セッションに**ふりかえりのファシリテーションに精通している人**（おそらくスクラムマスター）を含めます。 チームのファシリテーター以外の人は、セッション中にファシリテーターから学習し、後に他の評価セッションでファシリテートできるようになります。     
+De nombreuses organisations jugent que l’évaluation des équipes **tous les trois mois** donne de bons résultats.
 
-> **ファシリテーター**
+### Préparation
+
+1.  Trouvez quelqu’un pour faciliter l’évaluation. Il devrait s’agir de quelqu’un de l’extérieur de l’équipe, qui connaît bien les rétrospectives de l’équipe d’exécution.   
+2.  Réservez un créneau horaire de deux ou trois heures : pour les séances en ligne, vous pouvez les répartir sur deux séances d’appel vidéo ou plus, et pour les séances en personne, réservez une salle assez grande pour l’équipe.
+3.  Pour les séances en ligne, utilisez le jeu de cartes de Agile Stationery et la capture d’écran ou notez les résultats dans une feuille de calcul, ou utilisez un outil de sondage en ligne pour consigner les réponses des personnes à la séance. Pour les **séances en personne**, utilisez le jeu de cartes de Agile Stationery, ou imprimez les feuilles d’évaluation pour chaque ensemble de critères, soit en utilisant le PDF A1 prêt à l’emploi (voir Versions), soit les pages d’évaluation individuelles de taille A1 si possible (utilisez de petites marges) :
+	* [Santé de l’équipe – fiche d’évaluation](print/print-team-health.md)
+	* [Déploiement – fiche d’évaluation](print/print-deployment.md)
+	* [Flux – fiche d’évaluation](print/print-flow.md)
+	* [Livraison continue – fiche d’évaluation](print/print-continuous-delivery.md)
+	* [Exploitabilité – fiche d’évaluation](print/print-operability.md)
+	* [Essais et testabilité – fiche d’évaluation](print/print-testability.md)
+	* [Fiabilité et IFS – fiche d’évaluation](print/print-reliability.md)
+	* [Sur appel – fiche d’évaluation](print/print-on-call.md)
+4.  Pour **les séances en ligne**, affichez les critères Fatigué et Inspiré à l’écran en même temps que la question. Pour **les séances en personne**, imprimez les pages de détails comme guide ou ouvrez-les à l’écran pour comprendre le contexte et les détails de chacun des critères d’évaluation :
+	1. [Santé de l’équipe](team-health.md)
+	2. [Déploiement](deployment.md)
+	3. [Flux](flow.md)
+	4. [Livraison continue](continuous-delivery.md)
+	5. [Exploitabilité](operability.md)
+	6. [Essais et testabilité](testability.md)
+	7. [Fiabilité et IFS](reliability.md)
+	8. [Sur appel](on-call.md)
+5.  Il est utile de saisir les détails et les nuances des discussions entourant chaque question. Pour **les séances en ligne**, demandez à quelqu’un de prendre des notes dans un document ou un tableau blanc partagé. Pour **les séances en personne**, apportez beaucoup de stylos marqueurs ou de marqueurs de tableau blanc : le rouge, le bleu et le vert sont les meilleures couleurs.
+6.  Incluez dans la séance une **personne qui sait animer des rétrospectives** (peut-être un maître du scrum). Ils suivront l’animateur pendant la séance afin que la personne de votre équipe puisse animer d’autres séances d’évaluation plus tard.
+
+Assurez-vous que l’animateur comprend le but de la séance et qu’il connaît bien les pages et les questions de l’évaluation.
+
+> **Animateurs**
 > 
-> ファシリテーターは、セッションを実行する前に[Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/)のアプローチに慣れる必要があります。優れたレポートとして、[How I Used the Spotify Squad Health Check Model](http://www.barryovereem.com/how-i-used-the-spotify-squad-health-check-model/)、SkyBet [Squad Health Checks](https://engineering.skybettingandgaming.com/2017/02/01/squad-health-checks/)で公開されており、また、SpotifyからSquad Health Checkの説明文書([PDF](https://spotifylabscom.files.wordpress.com/2014/09/squad-health-check-model2.pdf)) がダウンロードできます。      
+> L’animateur doit se familiariser avec l’approche [Spotify Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) avant d’exécuter la séance. Voir [How I Used the Spotify Squad Health Check Model](http://www.barryovereem.com/how-i-used-the-spotify-squad-health-check-model/) our un bon rapport sur l’expérience, [Squad Health Checks](https://engineering.skybettingandgaming.com/2017/02/01/squad-health-checks/) de SkyBet, et téléchargez les instructions de Spotify ([PDF](https://spotifylabscom.files.wordpress.com/2014/09/squad-health-check-model2.pdf)).
 >
-> 評価セッション中に実施すること:
+> Au cours de l’évaluation :
 > 
-> *	いくつか議題が長引く場合は、セッションの外でディスカッションを行うように依頼して、セッションがスケジュール通り進むようにします。   
-> * 印刷された評価シートにチームのスコアとメモを書き留めます。
-> * 完成した評価シートの写真を撮ります。    
-> * エンジニアリング評価の意義と実施結果についてチームからフィードバックを受け取ります。 - 笑顔で十分です。        
+> *	tenez l’équipe à l’heure prévue en demandant que certaines discussions se tiennent en dehors de la séance;
+> * rédigez les notes et les commentaires de l’équipe sur les fiches d’évaluation imprimées ou assurez-vous que les notes et les commentaires sont saisis dans un outil numérique;
+> * prenez des photographies des fiches d’évaluation remplies pour **les séances en personne**;
+> * obtenez la rétroaction de l’équipe sur la VALEUR et l’EXÉCUTION de l’évaluation technique – les émoticônes souriants sont assez!
 > 
 
-### 時間調整      
+### Horaire
 
-チーム評価セッションは2時間で実行され、ファシリテーターは6つの観点の質問を通して、セッションをファシリテートします。        
+Chaque évaluation de l’équipe dure deux à trois heures, et l’animateur dirigera l’équipe au moyen de huit séries de questions :
 
-1.  Team health check - **35分**
-2.  Deployment health check - **10分**
-3.  Flow check - **10分**
-4.  Continuous Delivery check - **20分**
-5.  Operability check - **20分**
-6.  Test coverage check - **20分**
+1.  Vérification de la santé de l’équipe - **35 mins**
+2.  Vérification de l’état du déploiement  - **10 mins**
+3.  Vérification du flux - **10 mins**
+4.  Vérification de livraison continue  - **20 mins**
+5.  Vérification de l’exploitabilité - **20 mins**
+6.  Vérification de la couverture des essais - **20 mins**
+7.  Fiabilité et IFS - **30 mins**
+8.  Sur appel - **15 mins**
 
-これら6つの評価の間に**5分の休憩**を挟みます。      
+Cet horaire laisse place à une **pause de 10 minutes** pendant l’évaluation.
 
-### 評価セッションの実行     
+### Exécution de la séance d’évaluation
 
-各セクションにはいくつかのルールがあります。各質問には以下の記載事項を意識して回答する必要があります。      
+Chaque section comporte plusieurs questions. On doit répondre à chaque question comme suit :
 
-  - チームは、個人またはチームとして、***Tired* and *Inspired*** ガイドラインに基づいて、SAD（1 OR 2）/MEH（3）/ YAY（4 OR 5） を使用して各評価基準を評価します。    
-
-      - *Tired (しんどい)* は評価が低く (1), *Inspired (すばらしい)* は評価が高い (5) です。　　　　
+  - L’équipe (soit à titre individuel, soit à titre d’équipe) évalue chacun des critères à l’aide de TRISTE (1 OU 2)/PFFF (3)/OUAIS (4 OU 5) selon les directives ***Fatigué* et *Inspiré***.
     
-      - 個人ごとに評価した場合は、評価を集計し、1-5の単一のチームスコアを決定します。印刷されたシートに異なる色のペンを使用して、異なる評価を視覚的に示すと便利です。    
-
-  - 過去に評価を実施している場合は、前回のスコアに対する**トレンド** を決定します。(上がった, 変わらない, 下がった)     
-  
-  - 今後数カ月にわたり、評価基準のスコア改善することに**同意します**。
+      - *Fatigué* correspond à une faible cote (1), et *Inspiré* correspond à une cote élevée (5).
     
-  - **メモ**欄を使用して、評価のまとめ役が知る必要があると思われる詳細情報を示します。           
+      - Si vous avez utilisé des évaluations individuelles, regroupez les évaluations ou décidez d’une note d’équipe unique entre 1 et 5. Vous pouvez trouver utile d’utiliser différents stylos colorés sur la fiche imprimée pour indiquer visuellement les différentes évaluations.
 
-  - 各シートの下部にある **日付/名前/ファシリテーター** 欄に必ず情報を記入します。       
-  
-  - 記入済みの各シートの写真を撮り、評価のまとめ役に送信します。     
-  
-  - チームメンバーに次の観点から評価セッション自体を評価してもらいます： **価値**、**実行** （悪い、まあまあ、良い）    
+  - La **tendance** depuis la période précédente est indiquée (en hausse, en demeurant à peu près la même, en baisse), le cas échéant.
 
-### ファシリテーションを促進する      
+  - Une **mesure** convenue pour améliorer la note à cette question au cours des prochains mois.
 
-各チームの評価セッションには、ファシリテーターから学習している人物が参加しているため、今後のセッションをファシリテートすることができます。新しいファシリテーターはそれぞれ、少なくとも2つの他のチームとのセッションをファシリテーションする必要があります。このようにして、ファシリテーターの数は急速に拡大し、最初のファシリテーターの負担を最小限に抑えることができます。          
+  - Utilisez la colonne **Notes** pour indiquer d’autres renseignements que vous pensez utiles pour l’équipe de coordination.
 
-## 結果の調整と解釈    
+  - Assurez-vous de remplir les détails **Date/Nom/Animateur**.
 
-各チームが評価セッションを実行して結果を送信した後、評価のまとめ役は異なるチームの結果を照合し、組織全体で改善が必要な領域を特定する必要があります。     
-改善が必要な領域を特定するには、次のような質問をします。     
+  - Pour les séances en personne, prenez une photo de chaque fiche remplie et envoyez-la à la personne qui coordonne les évaluations.
 
-* チームABCがテストカバレッジについて1と評価するのは何故ですか？ スコアの上昇を妨げているものは何ですか？    
+  -  Demandez aux membres de l’équipe d’évaluer la séance d’évaluation elle-même en fonction des éléments suivants : **Valeur**, **Exécution** (visages triste, agacé, heureux).
 
-* より多くのチームのリリースを支援するために、組織として何ができますか？     
+### Animation virale
 
-* チームがよりよく、効率良く作業できるようにプラットフォーム側が改善するべき点はありますか？
+Chaque séance d’évaluation de l’équipe présente une personne qui suit l’animateur afin qu’elle puisse faciliter elle-même les séances futures. Chaque nouvel animateur devrait animer au moins deux séances avec d’autres équipes. De cette façon, le nombre d’animateurs augmente rapidement, ce qui permet un fardeau minimal pour les animateurs initiaux.
 
-チームを直接ランク付けまたは比較しようとしないでください。代わりに、チームからのシグナルを使用して組織のダイナミクスをより理解し、組織全体の改善に優先順位を付けます。     
+## Coordination et interprétation des résultats
 
+Une fois que les équipes ont organisé une séance d’évaluation et envoyé leurs résultats, le groupe de coordination doit recueillir les résultats des différentes équipes afin d’identifier les domaines qui doivent être améliorés dans l’ensemble de l’organisation. Posez des questions comme les suivantes :
+
+* Pourquoi l’équipe ABC se note-t-elle à 1 pour la couverture des essais? Qu’est-ce qui les gêne?
+* Que pouvons-nous faire en tant qu’organisation pour aider plus d’équipes à effectuer des déploiements?
+* Y a-t-il un aspect de la Plateforme qui doit être amélioré pour que les équipes puissent aller plus vite?
+
+N’essayez pas de classer ou de comparer directement les équipes. Au lieu de cela, utilisez les signaux des équipes pour mieux comprendre la dynamique organisationnelle, puis prioriser les améliorations à l’échelle de l’organisation.
