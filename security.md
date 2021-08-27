@@ -14,7 +14,7 @@ Based on selected criteria from the following books:
 * [_Alice and Bob Learn Application Security_](https://www.wiley.com/en-gb/Alice+and+Bob+Learn+Application+Security-p-9781119687405) by Tanya Janca
 * [_Secure by Design_](https://www.manning.com/books/secure-by-design) by Dan Bergh Johnsson, Daniel Deogun, Daniel Sawano
 * [Continuous Delivery](http://continuousdelivery.com/) by Jez Humble and Dave Farley
-* [Thread Modeling: Designing for Security](https://shostack.org/books/threat-modeling-book) by Adam Shostack
+* [Threat Modeling: Designing for Security](https://shostack.org/books/threat-modeling-book) by Adam Shostack
 
 The [OWASP Top Ten](https://owasp.org/www-project-top-ten/) list of application security risks is an excellent starting point for assessing security and securability in software. The game [Elevation of Privilege](https://www.microsoft.com/security/blog/2010/03/02/announcing-elevation-of-privilege-the-threat-modeling-game/) by Adam Shostack was also an influence, especially in the [card deck format provided by Agile Stationery](https://agilestationery.com/collections/cybersecurity-games/products/elevation-of-privilege-game).
 

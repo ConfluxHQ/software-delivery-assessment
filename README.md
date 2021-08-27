@@ -79,8 +79,7 @@ The criteria for each dimension are taken from existing published books and onli
 * **Testing and Testability** - based on selected criteria from the books [_Agile Testing_](https://wordery.com/agile-testing-lisa-crispin-9780321534460) by Lisa Crispin and Janet Gregory, [_Continuous Delivery_](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) by Jez Humble and Dave Farley, [_Growing Object-Oriented Software_](https://wordery.com/growing-object-oriented-software-guided-by-tests-steve-freeman-9780321503626) by Steve Freeman and Nat Price, [_Working Effectively with Legacy Code_](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) by Michael Feathers, [_Team Guide to Software Testability_](http://testabilitybook.com/) by Ash Winter and Rob Meaney, and [TestabilityQuestions.com](http://TestabilityQuestions.com/).
 * **Reliability and SRE** - based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Seeking SRE_](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) edited by David N. Blank-Edelman, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
 * **On-call** - based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
-* **Security and Securability** - based on selected criteria from the books [_Agile Application Security_](https://www.oreilly.com/library/view/agile-application-security/9781491938836/) by Laura Bell, Michael Brunton-Spall, Rich Smith, Jim Bird; [_Alice and Bob Learn Application Security_](https://www.wiley.com/en-gb/Alice+and+Bob+Learn+Application+Security-p-9781119687405) by Tanya Janca; [_Secure by Design_](https://www.manning.com/books/secure-by-design) by Dan Bergh Johnsson, Daniel Deogun, Daniel Sawano; [Continuous Delivery](http://continuousdelivery.com/) by Jez Humble and Dave Farley; and 
-* [Thread Modeling: Designing for Security](https://shostack.org/books/threat-modeling-book) by Adam Shostack; together with the [OWASP Top Ten](https://owasp.org/www-project-top-ten/) list of application security risks.
+* **Security and Securability** - based on selected criteria from the books [_Agile Application Security_](https://www.oreilly.com/library/view/agile-application-security/9781491938836/) by Laura Bell, Michael Brunton-Spall, Rich Smith, Jim Bird; [_Alice and Bob Learn Application Security_](https://www.wiley.com/en-gb/Alice+and+Bob+Learn+Application+Security-p-9781119687405) by Tanya Janca; [_Secure by Design_](https://www.manning.com/books/secure-by-design) by Dan Bergh Johnsson, Daniel Deogun, Daniel Sawano; [Continuous Delivery](http://continuousdelivery.com/) by Jez Humble and Dave Farley; and [Threat Modeling: Designing for Security](https://shostack.org/books/threat-modeling-book) by Adam Shostack; together with the [OWASP Top Ten](https://owasp.org/www-project-top-ten/) list of application security risks.
 
 ## How to run the assessments
 
@@ -105,7 +104,7 @@ Many organisations find that running team assessments **every 3 months** provide
 	* [Testing and Testability - assessment sheet](print/print-testability.md)
 	* [Reliability and SRE - assessment sheet](print/print-reliability.md)
 	* [On-call - assessment sheet](print/print-on-call.md)
-  * [Security - assessment sheet](print/print-security.md)
+	* [Security - assessment sheet](print/print-security.md)
 4.  For **online sessions**, show the _Tired_ and _Inspired_ criteria on the screen alongside the question. For **in-person sessions**, either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
 	1. [Team Health](team-health.md)
 	2. [Deployment](deployment.md)
@@ -115,7 +114,7 @@ Many organisations find that running team assessments **every 3 months** provide
 	6. [Testing and Testability](testability.md)
 	7. [Reliability and SRE](reliability.md)
 	8. [On-call](on-call.md)
-  9. [Security and Securability](security.md)
+	9. [Security and Securability](security.md)
 5.  It is valuable to capture details and nuances of the discussions around each question. For **online sessions**, have someone take notes in a document or shared whiteboard. For **in-person sessions**, bring lots of marker pens or whiteboard markers: red, blue, and green are best. 
 6.  Include **someone who is familiar with facilitating retrospectives** (possibly a scrum master) in the session. They will be shadowing the facilitator during the session so the person from your team can facilitate other assessment sessions later.
 
