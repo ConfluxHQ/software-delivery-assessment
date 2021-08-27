@@ -11,8 +11,8 @@
 | 7\. Supply-Chain Security            |                              |                   |            |           |
 | 8\. HTTPS Everywhere           |                              |                   |            |           |
 | 9\. Automated Security Testing      |                              |                   |            |           |
-| 10\.Responsibility for Security          |                              |                   |            |           |
-| 11\.Policy as Code      |                              |                   |            |           |
+| 10\. Responsibility for Security          |                              |                   |            |           |
+| 11\. Policy as Code      |                              |                   |            |           |
 |                           |                              |                   |            |           |
 |                           |                              |                   |            |           |
 
