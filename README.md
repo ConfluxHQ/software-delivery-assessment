@@ -17,8 +17,9 @@ The assessment covers nine dimensions in total:
 7. [Reliability and SRE](reliability.md)
 8. [On-call](on-call.md)
 9. [Security and Securability](security.md)
+10. [Team Topologies team interactions](team-topologies.md)
 
-These nine dimensions cover key aspects of modern software delivery in a form that enables teams to self-assess their strengths and practices.
+These ten dimensions cover key aspects of modern software delivery in a form that enables teams to self-assess their strengths and practices.
 
 **🚀 Overview**: see slides 32-38 in [Continuous Delivery at scale](https://www.slideshare.net/matthewskelton/continuous-delivery-at-scale-matthew-skelton-nhs-digital-agile-cop-march-2019)
 
@@ -45,6 +46,7 @@ The aim of the assessments is to promote and sustain a positive working environm
   - Working with software is **rewarding** and interesting
   - Being on-call and supporting the software is **sustainable and valuable**
   - People feel **confident to challenge poor practices** and approaches
+  - Teams have a **clear mission** and **well-defined interaction patterns** with other teams
 
 Fundamentally, the assessments should help to **unblock and enable teams** so they can succeed. The assessments should **help teams to improve how they build, test, and deploy software systems** through identifying different kinds of improvements:
 
@@ -80,6 +82,7 @@ The criteria for each dimension are taken from existing published books and onli
 * **Reliability and SRE** - based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Seeking SRE_](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) edited by David N. Blank-Edelman, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
 * **On-call** - based on selected criteria from the books [_Site Reliability Engineering_](https://sre.google/sre-book/table-of-contents/) by Betsy Beyer, Chris Jones, Jennifer Petoff, & Niall Murphy, [_The Site Reliability Workbook_](https://sre.google/workbook/table-of-contents/) edited by Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara, & Stephen Thorne, [_Team Guide to Software Operability_](http://operabilitybook.com/) by Matthew Skelton, Alex Moore, & Rob Thatcher.
 * **Security and Securability** - based on selected criteria from the books [_Agile Application Security_](https://www.oreilly.com/library/view/agile-application-security/9781491938836/) by Laura Bell, Michael Brunton-Spall, Rich Smith, Jim Bird; [_Alice and Bob Learn Application Security_](https://www.wiley.com/en-gb/Alice+and+Bob+Learn+Application+Security-p-9781119687405) by Tanya Janca; [_Secure by Design_](https://www.manning.com/books/secure-by-design) by Dan Bergh Johnsson, Daniel Deogun, Daniel Sawano; [Continuous Delivery](http://continuousdelivery.com/) by Jez Humble and Dave Farley; and [Threat Modeling: Designing for Security](https://shostack.org/books/threat-modeling-book) by Adam Shostack; together with the [OWASP Top Ten](https://owasp.org/www-project-top-ten/) list of application security risks.
+* **Team Topologies team interactions** - based on selected criteria from the books [_Team Topologies_](https://teamtopologies.com/book) by Matthew Skelton and Manuel Pais and [_Dynamic Reteaming_](https://www.heidihelfand.com/dynamic-reteaming/) by Heidi Helfand, together with ideas from the [Team Topologies area on GitHub](https://github.com/TeamTopologies/).
 
 ## How to run the assessments
 
@@ -105,6 +108,7 @@ Many organisations find that running team assessments **every 3 months** provide
 	* [Reliability and SRE - assessment sheet](print/print-reliability.md)
 	* [On-call - assessment sheet](print/print-on-call.md)
 	* [Security - assessment sheet](print/print-security.md)
+	* [Team Topologies - assessment sheet](print/print-team-topologies.md)
 4.  For **online sessions**, show the _Tired_ and _Inspired_ criteria on the screen alongside the question. For **in-person sessions**, either print the details pages as a guide or have the pages open on-screen to understand the context and details of each of the assessment criteria:
 	1. [Team Health](team-health.md)
 	2. [Deployment](deployment.md)
@@ -115,6 +119,7 @@ Many organisations find that running team assessments **every 3 months** provide
 	7. [Reliability and SRE](reliability.md)
 	8. [On-call](on-call.md)
 	9. [Security and Securability](security.md)
+	9. [Team Topologies team interactions](team-topologies.md)
 5.  It is valuable to capture details and nuances of the discussions around each question. For **online sessions**, have someone take notes in a document or shared whiteboard. For **in-person sessions**, bring lots of marker pens or whiteboard markers: red, blue, and green are best. 
 6.  Include **someone who is familiar with facilitating retrospectives** (possibly a scrum master) in the session. They will be shadowing the facilitator during the session so the person from your team can facilitate other assessment sessions later.
 
@@ -134,7 +139,7 @@ Make sure that the Facilitator understands the purpose of the session and is fam
 
 ### Timings
 
-Each team assessment runs for around 3 hours, and the facilitator will run the team through 9 sets of questions:
+Each team assessment runs for around 3-4 hours, and the facilitator will run the team through 10 sets of questions:
 
 1.  Team health check - **35 mins**
 2.  Deployment health check - **10 mins**
@@ -145,8 +150,9 @@ Each team assessment runs for around 3 hours, and the facilitator will run the t
 7.  Reliability and SRE - **30 mins**
 8.  On-call - **15 mins**
 9.  Security check - **30 mins**
+10. Team Topologies check - **20 mins**
 
-These timings leave space for a **10 minute break** during the assessment.
+These timings leave space for two **10 minute breaks** during the assessment.
 
 ### Running the Assessment session
 
