@@ -4,7 +4,7 @@ L’évaluation de la livraison de logiciels à plusieurs équipes est une appro
 
 L’évaluation utilise et met à profit le modèle bien connu et éprouvé de [Spotify Squad Health Check model](https://labs.spotify.com/2014/09/16/squad-health-check-model/). 
 
-> Traductions: [Japanese (ja 🇯🇵)](translations/ja/README.ja.md), [English (en)](README.md)
+> Traductions: [Japanese (ja 🇯🇵)](../translations/ja/README.ja.md), [English (en)](/README.md)
 
 L’évaluation porte sur huit dimensions au total :
 
