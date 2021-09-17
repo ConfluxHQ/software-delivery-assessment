@@ -1,4 +1,4 @@
-# Multi-team Software Delivery Assessment
+# Évaluation de la livraison de logiciels à plusieurs équipes
 
 L’évaluation de la livraison de logiciels à plusieurs équipes est une approche simple et facile à exécuter pour évaluer la livraison de logiciels dans de nombreuses équipes différentes dans une organisation. Conçue par [Matthew Skelton](https://github.com/matthewskelton) de [Conflux](https://confluxdigital.net/), elle est utilisée comme élément clé de Software Delivery Assessment à Conflux, mais peut être utilisé librement par n’importe qui (sous réserve de la licence CC BY-SA ci-dessous).
 

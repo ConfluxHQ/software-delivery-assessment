@@ -1,4 +1,4 @@
-# Continuous Delivery check
+# Vérification de livraison continue
 
 > **Partie de l’évaluation de la livraison de logiciels à plusieurs équipes** ([README](README.md))
 > 

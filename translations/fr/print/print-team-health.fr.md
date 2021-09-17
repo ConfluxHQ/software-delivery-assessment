@@ -1,4 +1,4 @@
-# Multi-team Software Delivery Assessment: Team Health (1)
+# Évaluation de la livraison des logiciels effectuée par des équipes multiples : Santé de l’équipe (1)
 
 | **Critères**            | **Cote 😥 1-2 😐 2-3 😊 4-5** | **Tendance (↑ → ↓)** | **Mesure** | **Notes** |
 | ------------------------- | ---------------------------- | ----------------- | ---------- | --------- |

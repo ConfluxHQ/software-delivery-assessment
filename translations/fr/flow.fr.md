@@ -1,4 +1,4 @@
-# Flow check
+# Contrôle du flux
 
 > **Partie de l’évaluation de la livraison de logiciels à plusieurs équipes** ([README](README.md))
 > 

@@ -1,4 +1,4 @@
-# Multi-team Software Delivery Assessment: Reliability and SRE (7)
+# Évaluation de la livraison des logiciels effectuée par des équipes multiples : Fiabilité et ingénierie de la fiabilité des sites (SRE) (7)
 
 | **Critères**            | **Cote 😥 1-2 😐 2-3 😊 4-5** | **Tendance (↑ → ↓)** | **Mesure** | **Notes** |
 | ------------------------- | ---------------------------- | ----------------- | ---------- | --------- |

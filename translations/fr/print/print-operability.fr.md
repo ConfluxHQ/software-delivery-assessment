@@ -1,4 +1,4 @@
-# Multi-team Software Delivery Assessment: Operability (5)
+# Évaluation de la livraison des logiciels effectuée par des équipes multiples : Exploitabilité (5)
 
 | **Critères**            | **Cote 😥 1-2 😐 2-3 😊 4-5** | **Tendance (↑ → ↓)** | **Mesure** | **Notes** |
 | ------------------------ | ---------------------------- | ----------------- | ---------- | --------- |

@@ -1,4 +1,4 @@
-# Team Health check
+# Vérification de la santé de l’équipe
 
 > **Partie de l’évaluation de la livraison de logiciels à plusieurs équipes** ([README](README.md))
 > 

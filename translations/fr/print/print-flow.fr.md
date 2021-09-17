@@ -1,4 +1,4 @@
-# Multi-team Software Delivery Assessment: Flow (3)
+# Évaluation de la livraison des logiciels effectuée par des équipes multiples : Flux (3)
 
 | **Critères**            | **Cote 😥 1-2 😐 2-3 😊 4-5** | **Tendance (↑ → ↓)** | **Mesure** | **Notes** |
 | ------------------------ | ---------------------------- | ----------------- | ---------- | --------- |

@@ -1,4 +1,4 @@
-# Multi-team Software Delivery Assessment: On-call (8)
+# Évaluation de la livraison des logiciels effectuée par des équipes multiples : Sur appel (8)
 
 | **Critères**            | **Cote 😥 1-2 😐 2-3 😊 4-5** | **Tendance (↑ → ↓)** | **Mesure** | **Notes** |
 | ------------------------- | ---------------------------- | ----------------- | ---------- | --------- |

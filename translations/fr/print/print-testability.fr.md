@@ -1,4 +1,4 @@
-# Multi-team Software Delivery Assessment: Testing and Testability (6)
+# Évaluation de la livraison des logiciels effectuée par des équipes multiples : Mises à l’essai et testabilité (6)
 
 | **Critères**            | **Cote 😥 1-2 😐 2-3 😊 4-5** | **Tendance (↑ → ↓)** | **Mesure** | **Notes** |
 | ------------------------- | ---------------------------- | ----------------- | ---------- | --------- |
