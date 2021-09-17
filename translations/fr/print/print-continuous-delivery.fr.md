@@ -1,21 +1,21 @@
-# Multi-team Software Delivery Assessment: Continuous Delivery (4)
+# Évaluation de la prestation de logiciels par diverses équipes : Prestation continue (4)
 
 | **Critères**            | **Cote 😥 1-2 😐 2-3 😊 4-5** | **Tendance (↑ → ↓)** | **Mesure** | **Notes** |
 | ------------------------- | ---------------------------- | ----------------- | ---------- | --------- |
-| 1\. Release Candidate     |                              |                   |            |           |
-| 2\. Done                  |                              |                   |            |           |
-| 3\. Automated Config      |                              |                   |            |           |
-| 4\. Config Options        |                              |                   |            |           |
-| 5\. Broken Builds         |                              |                   |            |           |
-| 6\. Failing Tests         |                              |                   |            |           |
-| 7\. Binaries              |                              |                   |            |           |
-| 8\. Stop The Line         |                              |                   |            |           |
-| 9\. Idempotent Deployment |                              |                   |            |           |
-| 10\. Stubs                |                              |                   |            |           |
-| 11\. API Replay           |                              |                   |            |           |
-| 12\. Blue-Green           |                              |                   |            |           |
-| 13\. Environment History  |                              |                   |            |           |
-| 14\. DB Changes           |                              |                   |            |           |
+| 1\. Version d’évaluation     |                              |                   |            |           |
+| 2\. Achèvement                  |                              |                   |            |           |
+| 3\. Configuration automatisée      |                              |                   |            |           |
+| 4\. Options de configuration        |                              |                   |            |           |
+| 5\. Versions défectueuses         |                              |                   |            |           |
+| 6\. Échec des tests         |                              |                   |            |           |
+| 7\. Binaires              |                              |                   |            |           |
+| 8\. Cesser la ligne         |                              |                   |            |           |
+| 9\. Déploiement idempotent |                              |                   |            |           |
+| 10\. Modules de remplacement                 |                              |                   |            |           |
+| 11\. Réexécuter l’API           |                              |                   |            |           |
+| 12\. Déploiement bleu-vert           |                              |                   |            |           |
+| 13\. Historique de l’environnement  |                              |                   |            |           |
+| 14\. Changements apportés à la base de données           |                              |                   |            |           |
 
 Date : ............... Nom et région de l’équipe : .................... Initiales de l’animateur : .......... (Version 2019-03-28)
 
