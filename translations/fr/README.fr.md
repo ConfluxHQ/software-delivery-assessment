@@ -23,7 +23,7 @@ Ces huit dimensions couvrent les aspects clés de la livraison de logiciels mode
 
 **🃏 Jeu de cartes**: Rendre l’évaluation amusante et interactive à l’aide de [the 66-card Software Delivery Assessment printed card deck from Agile Stationery](https://agilestationery.co.uk/pages/software-delivery-assessment). Élaboré en collaboration avec Conflux, le jeu de cartes comporte des indicateurs Fatigué et Inspiré pour chacun des critères d’évaluation, ainsi que des cartes émoticônes pour le vote rapide des membres de l’équipe. Le jeu de cartes fonctionne aussi pour les évaluations à distance!
 
-<img alt="Assessment cards from Agile Stationery" title="Assessment cards from Agile Stationery" src="images/Agile-Stationery-card-deck-MSDA.jpg" width="200" /> <img alt="Five emoji voting cards" title="Five emoji voting cards" src="images/SDA_Emojis_image2.png" width="200" /> 
+<img alt="Cartes d'évaluation d'Agile Stationery" title="Cartes d'évaluation d'Agile Stationery" src="../images/Agile-Stationery-card-deck-MSDA.jpg" width="200" /> <img alt="Five emoji voting cards" title="Five emoji voting cards" src="images/SDA_Emojis_image2.png" width="200" /> 
 
 > Droit d’auteur © 2018-2021 © 2018-2021 [Conflux Digital Ltd](https://confluxdigital.net/)
 > 
