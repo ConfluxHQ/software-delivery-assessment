@@ -6,7 +6,7 @@ The assessment uses and builds on the well-known and proven [Spotify Squad Healt
 
 > Translations: [Japanese (ja 🇯🇵)](translations/ja/README.ja.md)
 
-The assessment covers nine dimensions in total: 
+The assessment covers ten dimensions in total: 
 
 1. [Team Health](team-health.md)
 2. [Deployment](deployment.md)
