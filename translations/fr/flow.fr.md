@@ -1,0 +1,31 @@
+# Contrôle du flux
+
+> **Partie de l’évaluation de la livraison de logiciels à plusieurs équipes** ([README](README.md))
+> 
+> Droit d’auteur [Conflux Digital Ltd](https://confluxdigital.net/)
+> 
+> Sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+>
+> _Permalink: [SoftwareDeliveryAssessment.com](http://SoftwareDeliveryAssessment.com/)_ 
+
+D’après les principaux critères d’évaluation tirés des suivants:
+
+* [*Accelerate*](https://wordery.com/accelerate-nicole-forsgren-phd-9781942788331) de Nicole Forsgren, Jez Humble et Gene Kim.
+* [*Principles of Product Development Flow*](https://wordery.com/the-principles-of-product-development-flow-donald-g-reinertsen-9781935401001) de Don Reinertsen.
+* [*Team Guide to Metrics for Business Decisions*](http://bizmetricsbook.com/) de Mattia Battiston et Chris Young.
+
+But : *Évaluer la sensibilisation et le rendement de l’équipe en ce qui concerne les mesures de livraison de bout en bout.*
+
+Méthode : Utilisez l’approche [*Spotify Squad Health Check*](https://labs.spotify.com/2014/09/16/squad-health-check-model/) pour évaluer les réponses de l’équipe aux questions suivantes, et consignez les réponses :
+
+| **Question**                                                                                                                                                                    | **Fatigué (1)**                                                              | **Inspiré (5)**                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1\. **Durée du cycle** - Combien de temps faut-il pour qu’un changement de code passe du contrôle de version à l’exécution en Production? (Minimum, standard).                                            | 2 semaines ou plus.                                                            | 1 heure ou moins.                                                                                                                                      |
+| 2\. **Fréquence de déploiement** - À quelle fréquence votre équipe se déploie-t-elle en production?                                                                                                   | Toutes les 2 semaines ou plus dans la pratique.                                        | Tous les 2 jours ou moins.                                                                                                                                |
+| 3\. **Temps moyen de résolution (TMR)** - Combien de temps faut-il pour restaurer votre application ou service après un incident?                                                                                  | Nous n’en avons aucune idée – nous ne fais pas ce suivi.                                     | Nous faisons le suivi du TMR et nous restaurons le service en 10 minutes automatiquement et nous le testons dans le pipeline de déploiement.                                              |
+| 4\. **Modifications ayant échoué** - Quelle proportion de modifications apportées à votre application ou service dans en production a échoué ou exigent une correction? (Il s’agit généralement du nombre de déploiements ayant échoué.) | Plus de 20 % de nos changements ou déploiements échouent en production.                | Moins de 5 % de nos changements ou déploiements échouent dans la production.                                                                                          |
+| 5\. **Travaux en cours** - Sur combien de choses votre équipe travaille-t-elle en même temps? (Minimum, standard.)                                                                              | Nous avons beaucoup plus d’éléments Travail en cours (TEC) que de membres d’équipe.  | Nous avons explicitement limité nos TEC en nous fondant sur la théorie des files d’attente (ou coût du retard), et le nombre de TEC est inférieur ou égal au nombre de personnes dans notre équipe. |
+| 6\. **Innovation** - Dans quelle mesure êtes-vous capable d’innover en matière d’approches de livraison?                                                                                              | Nous n’avons pas le temps d’innover.                                            | Nous consacrons du temps à l’innovation chaque semaine et suivons les progrès dans le cadre des mesures de notre équipe.                                           |
+| 7\. **Intégration** - Quelle est l’efficacité du processus d’intégration pour les nouvelles équipes et le nouveau personnel?                                                                                       | Le processus d’intégration est incroyablement difficile et freine vraiment le progrès. | Le processus d’intégration est très simple, facile et clair.                                                                                  |
+| 8\. **Âge des branches** - Combien de temps durent vos branches? (Autre que la branche maître.)                                                                                                      | Nos branches de fonctionnalités durent pour plusieurs sprints.                                 | Nous nous développons directement sur la branche maître ou le tronc et toutes les branches de fonctionnalités ne durent pas plus de deux jours.                                                               |
+| 9\. **Rétrospectives** - Quelle est l’efficacité des rétrospectives de votre équipe?                                                                                                            | Nous n’avons pas de rétrospectives périodiques.                                      | Nos rétrospectives sont vraiment énergivores/précieuses/efficaces pour l’équipe et nous les attendons avec impatience.                                                |
